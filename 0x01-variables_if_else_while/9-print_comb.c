@@ -18,8 +18,8 @@ int main(void)
 		putchar(num);
 		if (num != 57)
 		{
-			putchar(space);
 			putchar(comma);
+			putchar(space);
 		}
 	}
 	num = 10;
