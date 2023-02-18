@@ -40,11 +40,11 @@ int main(void)
 							putchar(space);
 							putchar(num3);
 							putchar(num4);
-						}
-						if (!(num1 == 57 && num2 == 56 && num3 == 57 && num4 == 57))
-						{
-							putchar(comma);
-							putchar(space);
+							if (!(num1 == 57 && num2 == 56 && num3 == 57 && num4 == 57))
+							{
+								putchar(comma);
+								putchar(space);
+							}
 						}
 					}
 				}
