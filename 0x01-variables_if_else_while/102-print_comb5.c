@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 /**
  * main - Entry Point
@@ -16,13 +17,10 @@ int main(void)
 	int num2;
 	int num3;
 	int num4;
-	int space;
-	int comma;
-	int nwLine;
+	int space = 32;
+	int comma = 44;
+	int nwLine = 10;
 
-	nwLine = 10;
-	space = 32;
-	comma = 44;
 	for (num1 = 48; num1 <= 57; num1++)
 	{
 		for (num2 = 48; num2 <= 57; num2++)
@@ -31,6 +29,8 @@ int main(void)
 			{
 				for (num4 = 48; num4 <= 57; num4++)
 				{
+					bool print = false;
+
 					if ((num1 < num3 || (num1 == num3 && num2 <= num4))
 							&& !(num1 == num3 && num2 == num4))
 					{
@@ -39,11 +39,12 @@ int main(void)
 						putchar(space);
 						putchar(num3);
 						putchar(num4);
-						if (!(num1 == 57 && num2 == 56 && num3 == 57 && num4 == 57))
-						{
+						print = true;
+					}
+					if (print && !(num1 == 57 && num2 == 56 && num3 == 57 && num4 == 57))
+					{
 						putchar(comma);
 						putchar(space);
-						}
 					}
 				}
 			}
