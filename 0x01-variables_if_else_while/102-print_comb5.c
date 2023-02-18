@@ -41,8 +41,8 @@ int main(void)
 						putchar(num4);
 						if (!(num1 == 57 && num2 == 56 && num3 == 57 && num4 == 57))
 						{
-							putchar(comma);
-							putchar(space);
+						putchar(comma);
+						putchar(space);
 						}
 					}
 				}
