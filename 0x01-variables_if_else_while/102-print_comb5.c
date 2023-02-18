@@ -31,7 +31,7 @@ int main(void)
 			{
 				for (num4 = 48; num4 <= 57; num4++)
 				{
-					if (num1 <= num3 && num2 <= num4)
+					if (num1 < num3 || ( num1 == num3 && num2 <= num4))
 					{
 						if (!(num1 == num3 && num2 == num4))
 						{
