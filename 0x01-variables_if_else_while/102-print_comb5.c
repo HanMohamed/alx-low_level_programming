@@ -31,13 +31,16 @@ int main(void)
 			{
 				for (num4 = 48; num4 <= 57; num4++)
 				{
-					if (num1 <= num3 && num2 < num4)
+					if (num1 <= num3 && num2 <= num4)
 					{
-						putchar(num1);
-						putchar(num2);
-						putchar(space);
-						putchar(num3);
-						putchar(num4);
+						if (!(num1 == num3 && num2 == num4))
+						{
+							putchar(num1);
+							putchar(num2);
+							putchar(space);
+							putchar(num3);
+							putchar(num4);
+						}
 						if (!(num1 == 57 && num2 == 56 && num3 == 57 && num4 == 57))
 						{
 							putchar(comma);
