@@ -2,7 +2,7 @@
 
 /**
  * main - Entry Point
- * print _putchar 
+ * print _putchar
  *
  * Return: Always 0 (Success)
  */
