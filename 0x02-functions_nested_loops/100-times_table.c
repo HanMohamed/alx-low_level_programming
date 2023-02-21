@@ -23,7 +23,6 @@ void print_times_table(int n)
 				ntimes = i * j;
 				if (j != 0)
 				{
-					_putchar(' ');
 					if (ntimes > 99)
 					{
 						_putchar('0' + (ntimes / 100));
