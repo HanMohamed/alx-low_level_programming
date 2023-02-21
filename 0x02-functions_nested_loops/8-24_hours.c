@@ -12,10 +12,14 @@ void jack_bauer(void)
 	int rHour;
 	int lMin;
 	int rMin;
+	int maxHour;
 
+	maxHour = 9;
 	for (lHour = 0; lHour <= 2; lHour++)
 	{
-		for (rHour = 0; rHour <= 3; rHour++)
+		if (lHour == 2)
+		       maxHour = 3;	
+		for (rHour = 0; rHour <= maxHour; rHour++)
 		{
 			for (lMin = 0; lMin <= 5; lMin++)
 			{
