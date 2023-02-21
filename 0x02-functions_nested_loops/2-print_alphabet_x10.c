@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet: print alphabet.
+ * print_alphabet - print alphabet.
  *
- * description: A function that prints 10 times the alphabet.
+ * Description: A function that prints 10 times the alphabet.
  * in lowercase, followed by a new line.
  *
  * Return: void
@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		for (c = 'a'; c < 'z'; c++)
+		for (c = 'a'; c <= 'z'; c++)
 			_putchar(c);
 		_putchar('\n');
 	}
