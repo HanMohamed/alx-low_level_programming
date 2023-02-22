@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_fib - prints
+ * print_even_fib - prints
  */
 void print_even_fib(void)
 {
@@ -16,16 +16,12 @@ void print_even_fib(void)
 	for (i = 1; i <= n; i++)
 	{
 		c = a + b;
-		printf("%ld", c);
 		if (c % 2 == 0)
 			sum += c;
-		if (i != n)
-		printf(", ");
 		a = b;
 		b = c;
 	}
-	printf("\n");
-	printf("%ld", sum);
+	printf("%ld\n", sum);
 }
 
 /**
