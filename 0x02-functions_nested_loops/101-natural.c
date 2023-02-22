@@ -19,3 +19,9 @@ void sum_multiply(void)
 	}
 	printf("%d \n", sum);
 }
+
+int main(void)
+{
+    sum_multiply();
+    return (0);
+}
