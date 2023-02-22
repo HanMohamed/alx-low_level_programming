@@ -12,7 +12,7 @@ void print_fib(void)
 	long b = 1;
 	long c;
 
-	for (i = 2; i <= n; i++)
+	for (i = 1; i <= n; i++)
 	{
 		c = a + b;
 		printf("%ld", c);
