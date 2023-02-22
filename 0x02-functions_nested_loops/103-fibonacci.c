@@ -16,7 +16,7 @@ void print_even_fib(void)
 	for (i = 1; i <= n; i++)
 	{
 		c = a + b;
-		if (c % 2 == 0)
+		if (c % 2 == 0 && c < 4000000)
 			sum += c;
 		a = b;
 		b = c;
