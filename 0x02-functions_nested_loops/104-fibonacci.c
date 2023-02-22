@@ -8,9 +8,9 @@ void print_fib(void)
 {
 	int n = 98;
 	int i;
-	long a = 0;
-	long b = 1;
-	long c;
+	unsigned long int a = 0;
+	unsigned long int b = 1;
+	unsigned long int c;
 
 	for (i = 1; i <= n; i++)
 	{
