@@ -26,4 +26,6 @@ void print_times_table(int n);
 
 void sum_multiply(void);
 
+void print_fib(void);
+
 
