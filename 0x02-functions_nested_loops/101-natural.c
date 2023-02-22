@@ -20,8 +20,12 @@ void sum_multiply(void)
 	printf("%d\n", sum);
 }
 
+/**
+ * main - Entry point
+ * Return: Always 0
+ */
 int main(void)
 {
-    sum_multiply();
-    return (0);
+	sum_multiply();
+	return (0);
 }
