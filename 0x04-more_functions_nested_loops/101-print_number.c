@@ -7,7 +7,7 @@
  */
 void print_number(int n)
 {
-	int div = 10000000000;
+	int div = 1000000000;
 	unsigned int un = n;
 
 	if (n < 0)
