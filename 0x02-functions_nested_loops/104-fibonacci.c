@@ -7,15 +7,12 @@
 void print_fib(void)
 {
 	int n = 90;
-	int m = 1000000000;
+	unsigned long int m = 10000000000;
 	int i;
 	unsigned long int a = 0;
 	unsigned long int b = 1;
 	unsigned long int c;
-	unsigned long int a1;
-	unsigned long int a2;
-	unsigned long int b1;
-	unsigned long int b2;
+	unsigned long int a1, a2, b1, b2;
 	unsigned long int aa;
 	unsigned long int bb;
 
