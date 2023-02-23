@@ -8,7 +8,16 @@
 void print_number(int n)
 {
 	int div = 1000000000;
-	
+	int a1, a2;
+
+	if (n > 1000000000)
+	{
+		a1 = n / 1000000000;
+		a2 = n % 1000000000;
+		print_number(a1);
+		print_number(a2);
+	}
+
 	if (n < 0)
 	{
 		_putchar('-');
