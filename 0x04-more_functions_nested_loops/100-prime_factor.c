@@ -20,7 +20,7 @@ void prime_factor(void)
 	lrgfactr = 2;
 	for (i = 3; i <= sqrt(n); i += 2)
 	{
-		while (n % i ==0)
+		while (n % i == 0)
 		{
 			if (lrgfactr < i)
 				lrgfactr = i;
