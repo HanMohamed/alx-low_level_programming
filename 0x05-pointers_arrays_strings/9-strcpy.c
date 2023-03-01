@@ -2,8 +2,8 @@
 
 /**
  * _strcpy -  copies the string pointer
- * @des: the copied
- * @scr: to copy from
+ * @dest: the copied
+ * @src: to copy from
  *
  * a function that copies the string pointed to by src
  * including the terminating null byte (\0),
