@@ -4,8 +4,8 @@
  * rev_string - reverse string 
  * @s: a char  pointer
  *
- * a function that  a function that reverses a string.
- * 
+ * a function that  a function that reverses a string
+ *
  */
 void rev_string(char *s)
 {
