@@ -2,8 +2,9 @@
 
 /**
  * print_number - print integer
+ * @n: integer to print it.
+ *
  * You are not allowed to use long, arrays or pointers.
- *@n: integer to print it.
  */
 void print_number(int n)
 {
