@@ -53,7 +53,13 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	int i, len1, len2, diff, sum, swapint;
 	int carry = 0;
 	char *p = r;
-
+i = 0;
+    while (i < size_r) {
+        *p = '0';
+        p++;
+        i++;
+    }
+        p= r;
 	len1 = get_len(n1);/* larg */
 	len2 = get_len(n2);/*small */
 	if (len1 < len2)
