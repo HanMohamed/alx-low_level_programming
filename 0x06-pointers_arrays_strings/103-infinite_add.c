@@ -71,7 +71,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		carry = sum / 10;
 		p++;
 	}
-	for (i = n1 - n2 - 1; i >= 0; i--)
+	for (i = diff - 1; i >= 0; i--)
 	{
 		sum = (n1[i] - '0' + carry);
 		*p = (sum % 10 + '0');
