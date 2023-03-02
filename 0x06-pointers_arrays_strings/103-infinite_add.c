@@ -14,9 +14,10 @@
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	char *p = n1;
-	int i, smalln, largen, diff, sum, carry;
+	int i, smalln, largen, diff, sum;
 	int len1 = 0;
 	int len2 = 0;
+	int carry = 0;
 	char *d = n2;
 	char *start = r;
 	char *end = r;
@@ -25,7 +26,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	char *small;
 
 	while (*p != '\0')
-	{	
+	{
 		p++;
 		len1++;
 	}
@@ -79,7 +80,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		start++;
 	}
 	r[largen] = '\0';
-	if (largen > size_r)
+	if (largen >= size_r)
 		r = 0;
 	return (r);
 }
