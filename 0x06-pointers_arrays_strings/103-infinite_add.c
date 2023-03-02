@@ -53,13 +53,10 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	int i, len1, len2, diff, sum, swapint;
 	int carry = 0;
 	char *p = r;
-i = 0;
-    while (i < size_r) {
-        *p = '0';
-        p++;
-        i++;
-    }
-        p= r;
+
+	for (i = 0; i < size_r; i++, p++)
+		*p = '0';
+	p = r;
 	len1 = get_len(n1);/* larg */
 	len2 = get_len(n2);/*small */
 	if (len1 < len2)
@@ -70,25 +67,22 @@ i = 0;
 		len2 = swapint;
 	}
 	diff = len1 - len2;
-	for (i = len2 - 1; i >= 0; i--)
+	for (i = len2 - 1; i >= 0; i--, p++)
 	{
 		sum = ((n2[i] - '0') + (n1[i + diff] - '0') + carry);
 		*p = (sum % 10 + '0');
 		carry = sum / 10;
-		p++;
 	}
-	for (i = diff - 1; i >= 0; i--)
+	for (i = diff - 1; i >= 0; i--, p++)
 	{
 		sum = (n1[i] - '0' + carry);
 		*p = (sum % 10 + '0');
 		carry = sum / 10;
-		p++;
 	}
 	if (carry)
 	{
 		*p = (carry + '0');
 		len1++;
-		p++;
 	}
 	r[len1] = '\0';
 	reverse(r);
