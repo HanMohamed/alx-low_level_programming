@@ -1,15 +1,10 @@
 #include "main.h"
 
 /**
- * infinite_add - add two numbers
- * @n1: a pointer to  positive number
- * @n2: a pointer to positive number
- * @r: the buffer that the function will use to store the result
- * @size_r:  the buffer size
+ * get_len - get length
+ * @p: a pointer to  positive number
  *
- * if the result can not be stored in r the function must return 0
- *
- * Return: a pointer to the sum.
+ * Return: length
  */
 int get_len(char *p)
 {
@@ -23,6 +18,12 @@ int get_len(char *p)
 	}
 	return (len);
 }
+
+/**
+ * swap_n2_n1 - swap values
+ * @n1: a pointer to  positive number
+ * @n2: a pointer to  positive number
+ */
 void swap_n2_n1(char *n1, char *n2)
 {
 	char *temp = n1;
@@ -30,6 +31,11 @@ void swap_n2_n1(char *n1, char *n2)
 	n1 = n2;
 	n2 = temp;
 }
+
+/**
+ * reverse - reverse content of array
+ * @n1: a pointer to  positive number.
+ */
 void reverse(char *n1)
 {
 	char *start = n1;
@@ -48,6 +54,17 @@ void reverse(char *n1)
 	}
 }
 
+/**
+ * infinite_add - add two numbers
+ * @n1: a pointer to  positive number
+ * @n2: a pointer to positive number
+ * @r: the buffer that the function will use to store the result
+ * @size_r:  the buffer size
+ *
+ * if the result can not be stored in r the function must return 0
+ *
+ * Return: a pointer to the sum.
+ */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i, len1, len2, diff, sum, swapint;
