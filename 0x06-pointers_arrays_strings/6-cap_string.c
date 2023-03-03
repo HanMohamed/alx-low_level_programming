@@ -17,7 +17,6 @@ char *cap_string(char *str)
 	int j;
 	char sep[] = {' ', '\t', '\n', ',', ';', '.',
 		'!', '?', '"', '(', ')', '{', '}'};
-	bool cap = false;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
@@ -25,15 +24,9 @@ char *cap_string(char *str)
 		{
 			if (str[i] == sep[j])
 			{
-				cap = true;
-				break;
+				if (str[i + 1] <= 122 && str[i + 1] >= 97)
+					str[i + 1] -= 32;
 			}
-		}
-
-		if (cap && str[i] <= 122 && str[i] >= 97)
-		{
-			str[i] -= 32;
-			cap = false;
 		}
 	}
 
