@@ -8,7 +8,7 @@
  */
 void print_buffer(char *b, int size)
 {
-	int i, j, k;
+	int i, j, k, l;
 	int temp;
 
 	k = 0;
@@ -32,10 +32,16 @@ void print_buffer(char *b, int size)
 				if (i % 2)
 					printf(" ");
 			}
+			l = j;
+			while (l < 10)
+			{
+				printf(" ");
+				l++;
+			}
 			for (i = 0; i < j; i++)
 			{
 				temp = *(b + k + i);
-				if (temp < 32 || temp > 132)
+				if (temp < 32 || temp > 126)
 					temp = '.';
 				printf("%c", temp);
 			}
