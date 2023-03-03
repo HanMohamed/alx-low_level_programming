@@ -8,7 +8,7 @@
  */
 void print_buffer(char *b, int size)
 {
-	int i, j, k, l;
+	int i, j, k;
 	int temp;
 
 	k = 0;
@@ -32,11 +32,9 @@ void print_buffer(char *b, int size)
 				if (i % 2)
 					printf(" ");
 			}
-			l = j;
-			while (l < 10)
+			for (i = j; i < 10; i++)
 			{
 				printf(" ");
-				l++;
 			}
 			for (i = 0; i < j; i++)
 			{
