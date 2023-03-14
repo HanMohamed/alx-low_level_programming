@@ -5,7 +5,7 @@
  * str_concat - concatenates two strings.
  * @s1: first string
  * @s2: second string
- * 
+ *
  * if NULL is passed, treat it as an empty string
  * Return: a pointer should point to a newly allocated space
  * in memory which contains the ontents of s1,
@@ -17,8 +17,8 @@ char *str_concat(char *s1, char *s2)
 	char *concat;
 	int size1 = 0;
 	int size2 = 0;
-	int i;
-	int j;
+	int i = 0;
+	int j = 0;
 
 	if (s1 != NULL)
 	{
