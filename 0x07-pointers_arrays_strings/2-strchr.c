@@ -13,14 +13,17 @@
 char *_strchr(char *s, char c)
 {
 	char *found = s;
+	int n, count;
 
-	while (*found != '\0')
+	for (n = 0; s[n]; n++)
+		;
+
+	for (count = 0; count < n; count++)
 	{
 		if (*found == c)
 			return (found);
 		found++;
 	}
-	*found = '\0';
 
 	return (found);
 }
