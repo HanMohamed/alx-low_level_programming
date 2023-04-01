@@ -12,15 +12,15 @@
  */
 void print_diagsums(int *a, int size)
 {
-	unsigned int sum = 0;
+	long sum = 0;
 	int i;
 
 	for (i = 0; i < size; i++)
 		sum += *(a + i * size + i);
 
-	printf("%d, ", sum);
+	printf("%lu, ", sum);
 	sum = 0;
 	for (i = 0; i < size; i++)
 		sum += *(a + (i * size + (size - 1 - i)));
-	printf("%d \n", sum);
+	printf("%lu \n", sum);
 }
