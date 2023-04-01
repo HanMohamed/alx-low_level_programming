@@ -24,6 +24,6 @@ char *_strchr(char *s, char c)
 			return (found);
 		found++;
 	}
-
+	*found = '\0';
 	return (found);
 }
