@@ -5,7 +5,7 @@
  * @x: the number
  * @y: itteration
  *
- * return: square root
+ * Return: square root
  */
 int _sqrt(int x, int y)
 {
