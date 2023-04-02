@@ -22,31 +22,37 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	change = atoi(argv[1]);
 	count = 0;
-
 	while (change > 0)
 	{
 		if (change % 5 == 0)
 		{
 			if (change >= 25)
+			{
 				count += change / 25;
+				change = change % 25;
+			}
 			else if (change < 25 && change > 10)
+			{
 				count += 2;
+				change = 0;
+			}
 			else
+			{
 				count += 1;
-
-			change = 0;
+				change = 0;
+			}
 		}
-		else if (change % 5 == 1 || change % 5 == 2)
-			count += 1;
-
 		else
-			count += 2;
-		change -= change % 5;
+		{
+			if (change % 5 == 1 || change % 5 == 2)
+				count += 1;
+			else
+				count += 2;
+			change -= change % 5;
+		}
 	}
 	printf("%d\n", count);
-
 	return (0);
 }
