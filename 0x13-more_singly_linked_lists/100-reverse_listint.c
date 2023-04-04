@@ -15,19 +15,18 @@ listint_t *reverse_listint(listint_t **head)
 		return (NULL);
 
 	curr = *head;
-	prev = curr;
-	prev->next = NULL;
-	
+	prev = NULL;
+
 	if ((*head)->next == NULL)
 		return (*head);
 
 	while ((*head)->next != NULL)
 	{
 		*head = (*head)->next;
+		curr->next = prev;
 		prev = curr;
 		curr = *head;
-		curr->next = prev;
 	}
-	(*head)->next = curr;
+	(*head)->next = prev;
 	return (*head);
 }
