@@ -14,6 +14,7 @@
 char *argstostr(int ac, char **av)
 {
 	char *concat;
+	char *p;
 	int width;
 	int i;
 	int j;
@@ -24,24 +25,27 @@ char *argstostr(int ac, char **av)
 
 	for (i = 0; i < ac; i++)
 	{
-		for (j = 0; av[i][j]; j++)
+		p = av[i];
+		for (j = 0; p[j]; j++)
 			width++;
 		width++;
 	}
 
-	concat = malloc((width + 1) * sizeof(char));
+	concat = (char *)malloc((width + 1) * sizeof(char));
 	if (concat == NULL)
 		return (NULL);
 
 	for (i = 0; i < ac; i++)
 	{
-		for (j = 0; av[i][j]; j++)
+		p = av[i];
+		for (j = 0; p[j]; j++)
 		{
-			concat[k] = av[i][j];
+			concat[k] = p[j];
 			k++;
 		}
 		concat[k++] = '\n';
 	}
 	concat[k] = '\0';
+
 	return (concat);
 }
