@@ -26,6 +26,7 @@ char *argstostr(int ac, char **av)
 	{
 		for (j = 0; av[i][j]; j++)
 			width++;
+		width++;
 	}
 	width += ac;
 	concat = malloc((width + 1) * sizeof(char));
@@ -39,8 +40,8 @@ char *argstostr(int ac, char **av)
 			concat[k] = av[i][j];
 			k++;
 		}
-		if (concat[k] == '\0')
-			concat[k++] = '\n';
+		concat[k++] = '\n';
 	}
+	concat[k++] = '\0';
 	return (concat);
 }
