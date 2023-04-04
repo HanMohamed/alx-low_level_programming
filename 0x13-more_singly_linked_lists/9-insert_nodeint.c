@@ -1,6 +1,24 @@
 #include "lists.h"
 
 /**
+ * create_node - create a new node
+ * @n: value
+ *
+ * Return: address of new node
+ */
+listint_t *create_node(int n)
+{
+	listint_t *new_node;
+
+	new_node = malloc(sizeof(listint_t));
+	if (new_node == NULL)
+		return (NULL);
+	new_node->n = n;
+	new_node->next = NULL;
+	return (new_node);
+}
+
+/**
  * insert_nodeint_at_index - inserts a new node at a given position.
  * @head: head of the linked list.
  * @idx: he index of the list where the new node should be added.
@@ -17,10 +35,14 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	listint_t *new_node;
 	unsigned int i = 0;
 
-	if (!*head)
-		return (NULL);
+	if (!*head && idx == 0)
+	{
+		*head = create_node(n);
+		return (*head);
+	}
 
 	current = *head;
+
 	while (i < idx)
 	{
 		if (!current)
@@ -29,13 +51,16 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		i++;
 	}
 
-	new_node = malloc(sizeof(listint_t));
-	if (new_node == NULL)
-		return (NULL);
-
-	new_node->n = n;
-	new_node->next = current->next;
-	current->next = new_node;
-
-	return (new_node);
+	new_node = create_node(n);
+	if (idx == 0)
+	{
+		*head = new_node;
+		return (*head);
+	}
+	else
+	{
+		new_node->next = current->next;
+		current->next = new_node;
+		return (new_node);
+	}
 }
