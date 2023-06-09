@@ -12,6 +12,7 @@
   <component name="CMakeRunConfigurationManager">
     <generated>
       <config projectName="0x08_recursion" targetName="0-puts_recursion" />
+      <config projectName="0x08_recursion" targetName="4-pow" />
       <config projectName="0x08_recursion" targetName="1-main.c" />
       <config projectName="0x08_recursion" targetName="2-strlen_recursion" />
       <config projectName="0x08_recursion" targetName="3-factorial" />
@@ -28,8 +29,8 @@
     <list default="true" id="c9439bcb-5b58-4a85-8ba0-867f2c080382" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-0d3fbed8ab5ea4f2e409.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-09T22-59-17-0126.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d13448848c1033b6bf56.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-06-09T23-23-44-0131.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
@@ -58,6 +59,9 @@
     <option name="minorVersion" value="3.2" />
   </component>
   <component name="ProjectId" id="2Qyv8MdDRnxH4c0YgiwhErKE8W3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -78,7 +82,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="CMake Application.3-factorial">
+  <component name="RunManager" selected="CMake Application.4-pow">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -104,11 +108,17 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="4-pow" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="0x08_recursion" TARGET_NAME="4-pow" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="0x08_recursion" RUN_TARGET_NAME="4-pow">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.0-puts_recursion" />
       <item itemvalue="CMake Application.1-print_rev_recursion" />
       <item itemvalue="CMake Application.2-strlen_recursion" />
       <item itemvalue="CMake Application.3-factorial" />
+      <item itemvalue="CMake Application.4-pow" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -121,7 +131,7 @@
       <updated>1686338475555</updated>
       <workItem from="1686338476722" duration="63000" />
       <workItem from="1686338549276" duration="3398000" />
-      <workItem from="1686346581465" duration="3898000" />
+      <workItem from="1686346581465" duration="4706000" />
     </task>
     <servers />
   </component>

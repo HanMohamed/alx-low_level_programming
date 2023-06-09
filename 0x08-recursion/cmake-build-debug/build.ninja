@@ -197,6 +197,43 @@ build 3-factorial: C_EXECUTABLE_LINKER__3-factorial_Debug CMakeFiles/3-factorial
   TARGET_FILE = 3-factorial
   TARGET_PDB = 3-factorial.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-pow
+
+
+#############################################
+# Order-only phony target for 4-pow
+
+build cmake_object_order_depends_target_4-pow: phony || CMakeFiles/4-pow.dir
+
+build CMakeFiles/4-pow.dir/4-main.c.o: C_COMPILER__4-pow_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/4-main.c || cmake_object_order_depends_target_4-pow
+  DEP_FILE = CMakeFiles/4-pow.dir/4-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-pow.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-pow.dir
+
+build CMakeFiles/4-pow.dir/4-pow_recursion.c.o: C_COMPILER__4-pow_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/4-pow_recursion.c || cmake_object_order_depends_target_4-pow
+  DEP_FILE = CMakeFiles/4-pow.dir/4-pow_recursion.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-pow.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-pow.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-pow
+
+
+#############################################
+# Link the executable 4-pow
+
+build 4-pow: C_EXECUTABLE_LINKER__4-pow_Debug CMakeFiles/4-pow.dir/4-main.c.o CMakeFiles/4-pow.dir/4-pow_recursion.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/4-pow.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4-pow
+  TARGET_PDB = 4-pow.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -231,7 +268,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug
 
-build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion 3-factorial
+build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion 3-factorial 4-pow
 
 # =============================================================================
 # Built-in targets

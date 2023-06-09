@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -68,6 +70,13 @@
 					"id" : "3-factorial::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-3-factorial-Debug-24bf12f94a554fdd90af.json",
 					"name" : "3-factorial",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4-pow::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4-pow-Debug-8c4e4285ae8258670578.json",
+					"name" : "4-pow",
 					"projectIndex" : 0
 				}
 			]
