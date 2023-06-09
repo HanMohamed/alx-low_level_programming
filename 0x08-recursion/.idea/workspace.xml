@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77744811-81c3-4289-becd-acc7ca7512ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_abs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_abs.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_atoi.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_atoi.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_isalpha.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_isalpha.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_isdigit.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_isdigit.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_islower.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_islower.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_isupper.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_isupper.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_memcpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_memcpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_memset.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_memset.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_putchar.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_putchar.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_puts.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_puts.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strcat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strcat.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strchr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strchr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strcmp.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strcmp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strcpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strcpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strlen.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strlen.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strncat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strncat.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strncpy.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strncpy.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strpbrk.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strpbrk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strspn.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strspn.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strstr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/_strstr.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/create_static_lib.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/liball.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/libmy.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/main.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x09-static_libraries/quote" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/0-whatsmyname.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/1-args.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/100-change.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/2-args.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/3-mul.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/4-add.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/add" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/args" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/change" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/mul" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/mynewnameis" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0A-argc_argv/nargs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/0-create_array.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/0-main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/1-main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/1-strdup.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/100-argstostr.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/100-main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/101-main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/101-strtow.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/2-main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/2-str_concat.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/3-alloc_grid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/3-main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/4-free_grid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/4-main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/args" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/g" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/main.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../0x0B-malloc_free/strtow" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Qypcwq5qV8Etm74zICfY44kVn9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77744811-81c3-4289-becd-acc7ca7512ef" name="Changes" comment="" />
+      <created>1686335758470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686335758470</updated>
+      <workItem from="1686335760175" duration="97000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
