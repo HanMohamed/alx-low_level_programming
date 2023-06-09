@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "0x08_recursion",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -39,8 +41,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "0x08_recursion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-0x08_recursion-Debug-f3731bcb267946a16a14.json",
+					"jsonFile" : "target-0x08_recursion-Debug-174f4546573a49c8faab.json",
 					"name" : "0x08_recursion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "print_rev_recursion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-print_rev_recursion-Debug-991d623d8411d76b9113.json",
+					"name" : "print_rev_recursion",
 					"projectIndex" : 0
 				}
 			]
