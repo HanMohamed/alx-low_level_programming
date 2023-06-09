@@ -38,90 +38,127 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target 0x08_recursion
+# Object build statements for EXECUTABLE target 0-puts_recursion
 
 
 #############################################
-# Order-only phony target for 0x08_recursion
+# Order-only phony target for 0-puts_recursion
 
-build cmake_object_order_depends_target_0x08_recursion: phony || CMakeFiles/0x08_recursion.dir
+build cmake_object_order_depends_target_0-puts_recursion: phony || CMakeFiles/0-puts_recursion.dir
 
-build CMakeFiles/0x08_recursion.dir/0-main.c.o: C_COMPILER__0x08_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/0-main.c || cmake_object_order_depends_target_0x08_recursion
-  DEP_FILE = CMakeFiles/0x08_recursion.dir/0-main.c.o.d
+build CMakeFiles/0-puts_recursion.dir/0-main.c.o: C_COMPILER__0-puts_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/0-main.c || cmake_object_order_depends_target_0-puts_recursion
+  DEP_FILE = CMakeFiles/0-puts_recursion.dir/0-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
-  OBJECT_DIR = CMakeFiles/0x08_recursion.dir
-  OBJECT_FILE_DIR = CMakeFiles/0x08_recursion.dir
+  OBJECT_DIR = CMakeFiles/0-puts_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/0-puts_recursion.dir
 
-build CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o: C_COMPILER__0x08_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/0-puts_recursion.c || cmake_object_order_depends_target_0x08_recursion
-  DEP_FILE = CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o.d
+build CMakeFiles/0-puts_recursion.dir/0-puts_recursion.c.o: C_COMPILER__0-puts_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/0-puts_recursion.c || cmake_object_order_depends_target_0-puts_recursion
+  DEP_FILE = CMakeFiles/0-puts_recursion.dir/0-puts_recursion.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
-  OBJECT_DIR = CMakeFiles/0x08_recursion.dir
-  OBJECT_FILE_DIR = CMakeFiles/0x08_recursion.dir
+  OBJECT_DIR = CMakeFiles/0-puts_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/0-puts_recursion.dir
 
-build CMakeFiles/0x08_recursion.dir/_putchar.c.o: C_COMPILER__0x08_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/_putchar.c || cmake_object_order_depends_target_0x08_recursion
-  DEP_FILE = CMakeFiles/0x08_recursion.dir/_putchar.c.o.d
+build CMakeFiles/0-puts_recursion.dir/_putchar.c.o: C_COMPILER__0-puts_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/_putchar.c || cmake_object_order_depends_target_0-puts_recursion
+  DEP_FILE = CMakeFiles/0-puts_recursion.dir/_putchar.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
-  OBJECT_DIR = CMakeFiles/0x08_recursion.dir
-  OBJECT_FILE_DIR = CMakeFiles/0x08_recursion.dir
+  OBJECT_DIR = CMakeFiles/0-puts_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/0-puts_recursion.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 0x08_recursion
+# Link build statements for EXECUTABLE target 0-puts_recursion
 
 
 #############################################
-# Link the executable 0x08_recursion
+# Link the executable 0-puts_recursion
 
-build 0x08_recursion: C_EXECUTABLE_LINKER__0x08_recursion_Debug CMakeFiles/0x08_recursion.dir/0-main.c.o CMakeFiles/0x08_recursion.dir/0-puts_recursion.c.o CMakeFiles/0x08_recursion.dir/_putchar.c.o
+build 0-puts_recursion: C_EXECUTABLE_LINKER__0-puts_recursion_Debug CMakeFiles/0-puts_recursion.dir/0-main.c.o CMakeFiles/0-puts_recursion.dir/0-puts_recursion.c.o CMakeFiles/0-puts_recursion.dir/_putchar.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/0x08_recursion.dir
+  OBJECT_DIR = CMakeFiles/0-puts_recursion.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = 0x08_recursion
-  TARGET_PDB = 0x08_recursion.dbg
+  TARGET_FILE = 0-puts_recursion
+  TARGET_PDB = 0-puts_recursion.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target print_rev_recursion
+# Object build statements for EXECUTABLE target 1-print_rev_recursion
 
 
 #############################################
-# Order-only phony target for print_rev_recursion
+# Order-only phony target for 1-print_rev_recursion
 
-build cmake_object_order_depends_target_print_rev_recursion: phony || CMakeFiles/print_rev_recursion.dir
+build cmake_object_order_depends_target_1-print_rev_recursion: phony || CMakeFiles/1-print_rev_recursion.dir
 
-build CMakeFiles/print_rev_recursion.dir/1-main.c.o: C_COMPILER__print_rev_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/1-main.c || cmake_object_order_depends_target_print_rev_recursion
-  DEP_FILE = CMakeFiles/print_rev_recursion.dir/1-main.c.o.d
+build CMakeFiles/1-print_rev_recursion.dir/1-main.c.o: C_COMPILER__1-print_rev_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/1-main.c || cmake_object_order_depends_target_1-print_rev_recursion
+  DEP_FILE = CMakeFiles/1-print_rev_recursion.dir/1-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
-  OBJECT_DIR = CMakeFiles/print_rev_recursion.dir
-  OBJECT_FILE_DIR = CMakeFiles/print_rev_recursion.dir
+  OBJECT_DIR = CMakeFiles/1-print_rev_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/1-print_rev_recursion.dir
 
-build CMakeFiles/print_rev_recursion.dir/1-print_rev_recursion.c.o: C_COMPILER__print_rev_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/1-print_rev_recursion.c || cmake_object_order_depends_target_print_rev_recursion
-  DEP_FILE = CMakeFiles/print_rev_recursion.dir/1-print_rev_recursion.c.o.d
+build CMakeFiles/1-print_rev_recursion.dir/1-print_rev_recursion.c.o: C_COMPILER__1-print_rev_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/1-print_rev_recursion.c || cmake_object_order_depends_target_1-print_rev_recursion
+  DEP_FILE = CMakeFiles/1-print_rev_recursion.dir/1-print_rev_recursion.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
-  OBJECT_DIR = CMakeFiles/print_rev_recursion.dir
-  OBJECT_FILE_DIR = CMakeFiles/print_rev_recursion.dir
+  OBJECT_DIR = CMakeFiles/1-print_rev_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/1-print_rev_recursion.dir
 
-build CMakeFiles/print_rev_recursion.dir/_putchar.c.o: C_COMPILER__print_rev_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/_putchar.c || cmake_object_order_depends_target_print_rev_recursion
-  DEP_FILE = CMakeFiles/print_rev_recursion.dir/_putchar.c.o.d
+build CMakeFiles/1-print_rev_recursion.dir/_putchar.c.o: C_COMPILER__1-print_rev_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/_putchar.c || cmake_object_order_depends_target_1-print_rev_recursion
+  DEP_FILE = CMakeFiles/1-print_rev_recursion.dir/_putchar.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
-  OBJECT_DIR = CMakeFiles/print_rev_recursion.dir
-  OBJECT_FILE_DIR = CMakeFiles/print_rev_recursion.dir
+  OBJECT_DIR = CMakeFiles/1-print_rev_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/1-print_rev_recursion.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target print_rev_recursion
+# Link build statements for EXECUTABLE target 1-print_rev_recursion
 
 
 #############################################
-# Link the executable print_rev_recursion
+# Link the executable 1-print_rev_recursion
 
-build print_rev_recursion: C_EXECUTABLE_LINKER__print_rev_recursion_Debug CMakeFiles/print_rev_recursion.dir/1-main.c.o CMakeFiles/print_rev_recursion.dir/1-print_rev_recursion.c.o CMakeFiles/print_rev_recursion.dir/_putchar.c.o
+build 1-print_rev_recursion: C_EXECUTABLE_LINKER__1-print_rev_recursion_Debug CMakeFiles/1-print_rev_recursion.dir/1-main.c.o CMakeFiles/1-print_rev_recursion.dir/1-print_rev_recursion.c.o CMakeFiles/1-print_rev_recursion.dir/_putchar.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
-  OBJECT_DIR = CMakeFiles/print_rev_recursion.dir
+  OBJECT_DIR = CMakeFiles/1-print_rev_recursion.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = print_rev_recursion
-  TARGET_PDB = print_rev_recursion.dbg
+  TARGET_FILE = 1-print_rev_recursion
+  TARGET_PDB = 1-print_rev_recursion.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-strlen_recursion
+
+
+#############################################
+# Order-only phony target for 2-strlen_recursion
+
+build cmake_object_order_depends_target_2-strlen_recursion: phony || CMakeFiles/2-strlen_recursion.dir
+
+build CMakeFiles/2-strlen_recursion.dir/2-main.c.o: C_COMPILER__2-strlen_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/2-main.c || cmake_object_order_depends_target_2-strlen_recursion
+  DEP_FILE = CMakeFiles/2-strlen_recursion.dir/2-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-strlen_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-strlen_recursion.dir
+
+build CMakeFiles/2-strlen_recursion.dir/2-strlen_recursion.c.o: C_COMPILER__2-strlen_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/2-strlen_recursion.c || cmake_object_order_depends_target_2-strlen_recursion
+  DEP_FILE = CMakeFiles/2-strlen_recursion.dir/2-strlen_recursion.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-strlen_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-strlen_recursion.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-strlen_recursion
+
+
+#############################################
+# Link the executable 2-strlen_recursion
+
+build 2-strlen_recursion: C_EXECUTABLE_LINKER__2-strlen_recursion_Debug CMakeFiles/2-strlen_recursion.dir/2-main.c.o CMakeFiles/2-strlen_recursion.dir/2-strlen_recursion.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/2-strlen_recursion.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2-strlen_recursion
+  TARGET_PDB = 2-strlen_recursion.dbg
 
 
 #############################################
@@ -157,7 +194,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug
 
-build all: phony 0x08_recursion print_rev_recursion
+build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion
 
 # =============================================================================
 # Built-in targets

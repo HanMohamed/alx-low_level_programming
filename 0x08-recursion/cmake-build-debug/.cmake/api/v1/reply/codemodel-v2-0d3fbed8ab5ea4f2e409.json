@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -40,16 +42,23 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "0x08_recursion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-0x08_recursion-Debug-174f4546573a49c8faab.json",
-					"name" : "0x08_recursion",
+					"id" : "0-puts_recursion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-0-puts_recursion-Debug-decb87326df229c453da.json",
+					"name" : "0-puts_recursion",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "print_rev_recursion::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-print_rev_recursion-Debug-991d623d8411d76b9113.json",
-					"name" : "print_rev_recursion",
+					"id" : "1-print_rev_recursion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-print_rev_recursion-Debug-21b5231af78b8f84b8ea.json",
+					"name" : "1-print_rev_recursion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2-strlen_recursion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2-strlen_recursion-Debug-0d81ff76cac800b853cb.json",
+					"name" : "2-strlen_recursion",
 					"projectIndex" : 0
 				}
 			]
