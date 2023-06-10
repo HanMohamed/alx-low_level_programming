@@ -8,7 +8,7 @@
  *
  * Return: name of file
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	(void)argc;
 
