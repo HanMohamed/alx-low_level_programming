@@ -5,3 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(mynewnameis 0-whatsmyname.c _putchar.c main.h)
 add_executable(nargs 1-args.c)
+add_executable(args 2-args.c)
