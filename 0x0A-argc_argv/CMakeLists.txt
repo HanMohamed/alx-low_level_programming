@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.24)
+project(0x0A_argc_argv C)
+
+set(CMAKE_C_STANDARD 11)
+
+add_executable(mynewnameis 0-whatsmyname.c _putchar.c main.h)
