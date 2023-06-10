@@ -74,6 +74,37 @@ build mynewnameis: C_EXECUTABLE_LINKER__mynewnameis_Debug CMakeFiles/mynewnameis
   TARGET_FILE = mynewnameis
   TARGET_PDB = mynewnameis.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target nargs
+
+
+#############################################
+# Order-only phony target for nargs
+
+build cmake_object_order_depends_target_nargs: phony || CMakeFiles/nargs.dir
+
+build CMakeFiles/nargs.dir/1-args.c.o: C_COMPILER__nargs_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0A-argc_argv/1-args.c || cmake_object_order_depends_target_nargs
+  DEP_FILE = CMakeFiles/nargs.dir/1-args.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/nargs.dir
+  OBJECT_FILE_DIR = CMakeFiles/nargs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target nargs
+
+
+#############################################
+# Link the executable nargs
+
+build nargs: C_EXECUTABLE_LINKER__nargs_Debug CMakeFiles/nargs.dir/1-args.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/nargs.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = nargs
+  TARGET_PDB = nargs.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -108,7 +139,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0A-argc_argv/cmake-build-debug
 
-build all: phony mynewnameis
+build all: phony mynewnameis nargs
 
 # =============================================================================
 # Built-in targets

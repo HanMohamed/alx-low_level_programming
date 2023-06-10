@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "0x0A_argc_argv",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "mynewnameis::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-mynewnameis-Debug-cfae642e3787a6a359fa.json",
 					"name" : "mynewnameis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nargs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nargs-Debug-12f94bbfbea02212bf9d.json",
+					"name" : "nargs",
 					"projectIndex" : 0
 				}
 			]
