@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
  * main - Entry point
  * @argc: number of arguments
@@ -10,14 +12,19 @@
  *
  * Return: name of file
  */
-int main(__attribute__((unused)) int argc, char *argv[])
+int main(int argc, char *argv[])
 {
+	int mul, x, y;
+
 	if (argc != 3)
 	{
 		printf("Error");
 		return (1);
 	}
 
-	printf("%d\n", ((*argv[1]) * (*argv[2])));
+	x = atoi(argv[1]);
+	y = atoi(argv[2]);
+	mul = x * y;
+	printf("%d\n", mul);
 	return (0);
 }
