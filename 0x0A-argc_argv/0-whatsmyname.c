@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - Entry point
  * @argc: number of arguments
@@ -11,14 +11,6 @@
  */
 int main(__attribute__((unused)) int argc, char *argv[])
 {
-	char *p = 0;
-
-	p = argv[0];
-	while (*p != 0)
-	{
-		_putchar(*p);
-		p++;
-	}
-	_putchar('\n');
+	printf("%s\n", argv[0]);
 	return (0);
 }
