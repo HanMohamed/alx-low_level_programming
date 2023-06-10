@@ -136,6 +136,37 @@ build args: C_EXECUTABLE_LINKER__args_Debug CMakeFiles/args.dir/2-args.c.o
   TARGET_FILE = args
   TARGET_PDB = args.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target mul
+
+
+#############################################
+# Order-only phony target for mul
+
+build cmake_object_order_depends_target_mul: phony || CMakeFiles/mul.dir
+
+build CMakeFiles/mul.dir/3-mul.c.o: C_COMPILER__mul_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0A-argc_argv/3-mul.c || cmake_object_order_depends_target_mul
+  DEP_FILE = CMakeFiles/mul.dir/3-mul.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/mul.dir
+  OBJECT_FILE_DIR = CMakeFiles/mul.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mul
+
+
+#############################################
+# Link the executable mul
+
+build mul: C_EXECUTABLE_LINKER__mul_Debug CMakeFiles/mul.dir/3-mul.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/mul.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = mul
+  TARGET_PDB = mul.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -170,7 +201,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0A-argc_argv/cmake-build-debug
 
-build all: phony mynewnameis nargs args
+build all: phony mynewnameis nargs args mul
 
 # =============================================================================
 # Built-in targets

@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -45,6 +47,13 @@
 					"id" : "args::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-args-Debug-d76f4b96285771d6e73d.json",
 					"name" : "args",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mul::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mul-Debug-7f7191109849bb87110d.json",
+					"name" : "mul",
 					"projectIndex" : 0
 				},
 				{

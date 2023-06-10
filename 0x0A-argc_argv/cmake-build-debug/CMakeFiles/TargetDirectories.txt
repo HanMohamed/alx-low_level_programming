@@ -1,5 +1,6 @@
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0A-argc_argv/cmake-build-debug/CMakeFiles/mynewnameis.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0A-argc_argv/cmake-build-debug/CMakeFiles/nargs.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0A-argc_argv/cmake-build-debug/CMakeFiles/args.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0A-argc_argv/cmake-build-debug/CMakeFiles/mul.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0A-argc_argv/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0A-argc_argv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
