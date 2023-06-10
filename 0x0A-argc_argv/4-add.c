@@ -16,7 +16,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int sum, n, x;
+	int sum, n, i;
 	char *p;
 
 	if (argc == 1)
@@ -29,14 +29,17 @@ int main(int argc, char *argv[])
 	p = NULL;
 	for (n = 1; n < argc; n++)
 	{
-		x = strtol(argv[n], &p, 10);
-		if (x == 0)
+		i = 0;
+		while (argv[n][i])
 		{
-			printf("Error\n");
-			return (1);
+			if (!((argv[n][i] >= 0 && argv[n][i] <= 57) || argv[n][i] == 45))
+			{
+				printf("Error\n");
+				return (1);
+			}
+			i++;
 		}
-
-		sum += x;
+		sum += strtol(argv[n], &p, 10);
 	}
 
 	printf("%d\n", sum);
