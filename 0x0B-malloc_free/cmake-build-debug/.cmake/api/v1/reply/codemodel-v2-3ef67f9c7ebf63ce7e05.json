@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -45,6 +47,13 @@
 					"id" : "0x0B_malloc_free::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-0x0B_malloc_free-Debug-e556e2c0cabc8d35e3a3.json",
 					"name" : "0x0B_malloc_free",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alloc_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alloc_grid-Debug-b84b22444675be96dabf.json",
+					"name" : "alloc_grid",
 					"projectIndex" : 0
 				},
 				{
