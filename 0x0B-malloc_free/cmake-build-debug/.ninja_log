@@ -1,0 +1,5 @@
+# ninja log v5
+0	32	1686678138706319321	CMakeFiles/0x0B_malloc_free.dir/0-main.c.o	5582de69d686559b
+1	35	1686678138709722485	CMakeFiles/0x0B_malloc_free.dir/0-create_array.c.o	be3e79629db229ff
+1	35	1686678138709577072	CMakeFiles/0x0B_malloc_free.dir/_putchar.c.o	8e9410dee9d9a1d1
+35	70	1686678138745147924	0x0B_malloc_free	8c21e0320f6cc62d
