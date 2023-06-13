@@ -80,6 +80,43 @@ build 0x0B_malloc_free: C_EXECUTABLE_LINKER__0x0B_malloc_free_Debug CMakeFiles/0
   TARGET_FILE = 0x0B_malloc_free
   TARGET_PDB = 0x0B_malloc_free.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target strdup
+
+
+#############################################
+# Order-only phony target for strdup
+
+build cmake_object_order_depends_target_strdup: phony || CMakeFiles/strdup.dir
+
+build CMakeFiles/strdup.dir/1-main.c.o: C_COMPILER__strdup_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/1-main.c || cmake_object_order_depends_target_strdup
+  DEP_FILE = CMakeFiles/strdup.dir/1-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/strdup.dir
+  OBJECT_FILE_DIR = CMakeFiles/strdup.dir
+
+build CMakeFiles/strdup.dir/1-strdup.c.o: C_COMPILER__strdup_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/1-strdup.c || cmake_object_order_depends_target_strdup
+  DEP_FILE = CMakeFiles/strdup.dir/1-strdup.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/strdup.dir
+  OBJECT_FILE_DIR = CMakeFiles/strdup.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target strdup
+
+
+#############################################
+# Link the executable strdup
+
+build strdup: C_EXECUTABLE_LINKER__strdup_Debug CMakeFiles/strdup.dir/1-main.c.o CMakeFiles/strdup.dir/1-strdup.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/strdup.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = strdup
+  TARGET_PDB = strdup.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -114,7 +151,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug
 
-build all: phony 0x0B_malloc_free
+build all: phony 0x0B_malloc_free strdup
 
 # =============================================================================
 # Built-in targets

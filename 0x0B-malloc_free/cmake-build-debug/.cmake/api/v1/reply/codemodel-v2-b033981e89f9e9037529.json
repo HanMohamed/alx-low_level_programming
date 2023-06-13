@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "0x0B_malloc_free",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "0x0B_malloc_free::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-0x0B_malloc_free-Debug-e556e2c0cabc8d35e3a3.json",
 					"name" : "0x0B_malloc_free",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strdup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strdup-Debug-c58ddf590f0f8fbb881b.json",
+					"name" : "strdup",
 					"projectIndex" : 0
 				}
 			]
