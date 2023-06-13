@@ -2,5 +2,6 @@
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug/CMakeFiles/strdup.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug/CMakeFiles/str_concat.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug/CMakeFiles/alloc_grid.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug/CMakeFiles/free_grid.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug/CMakeFiles/rebuild_cache.dir
