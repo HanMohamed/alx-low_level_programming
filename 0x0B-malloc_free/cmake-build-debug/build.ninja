@@ -117,6 +117,43 @@ build strdup: C_EXECUTABLE_LINKER__strdup_Debug CMakeFiles/strdup.dir/1-main.c.o
   TARGET_FILE = strdup
   TARGET_PDB = strdup.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target str_concat
+
+
+#############################################
+# Order-only phony target for str_concat
+
+build cmake_object_order_depends_target_str_concat: phony || CMakeFiles/str_concat.dir
+
+build CMakeFiles/str_concat.dir/2-main.c.o: C_COMPILER__str_concat_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/2-main.c || cmake_object_order_depends_target_str_concat
+  DEP_FILE = CMakeFiles/str_concat.dir/2-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/str_concat.dir
+  OBJECT_FILE_DIR = CMakeFiles/str_concat.dir
+
+build CMakeFiles/str_concat.dir/2-str_concat.c.o: C_COMPILER__str_concat_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/2-str_concat.c || cmake_object_order_depends_target_str_concat
+  DEP_FILE = CMakeFiles/str_concat.dir/2-str_concat.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/str_concat.dir
+  OBJECT_FILE_DIR = CMakeFiles/str_concat.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target str_concat
+
+
+#############################################
+# Link the executable str_concat
+
+build str_concat: C_EXECUTABLE_LINKER__str_concat_Debug CMakeFiles/str_concat.dir/2-main.c.o CMakeFiles/str_concat.dir/2-str_concat.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/str_concat.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = str_concat
+  TARGET_PDB = str_concat.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -151,7 +188,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug
 
-build all: phony 0x0B_malloc_free strdup
+build all: phony 0x0B_malloc_free strdup str_concat
 
 # =============================================================================
 # Built-in targets
