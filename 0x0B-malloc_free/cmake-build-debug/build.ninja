@@ -234,6 +234,43 @@ build free_grid: C_EXECUTABLE_LINKER__free_grid_Debug CMakeFiles/free_grid.dir/4
   TARGET_FILE = free_grid
   TARGET_PDB = free_grid.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target argstostr
+
+
+#############################################
+# Order-only phony target for argstostr
+
+build cmake_object_order_depends_target_argstostr: phony || CMakeFiles/argstostr.dir
+
+build CMakeFiles/argstostr.dir/100-main.c.o: C_COMPILER__argstostr_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/100-main.c || cmake_object_order_depends_target_argstostr
+  DEP_FILE = CMakeFiles/argstostr.dir/100-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/argstostr.dir
+  OBJECT_FILE_DIR = CMakeFiles/argstostr.dir
+
+build CMakeFiles/argstostr.dir/100-argstostr.c.o: C_COMPILER__argstostr_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/100-argstostr.c || cmake_object_order_depends_target_argstostr
+  DEP_FILE = CMakeFiles/argstostr.dir/100-argstostr.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/argstostr.dir
+  OBJECT_FILE_DIR = CMakeFiles/argstostr.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target argstostr
+
+
+#############################################
+# Link the executable argstostr
+
+build argstostr: C_EXECUTABLE_LINKER__argstostr_Debug CMakeFiles/argstostr.dir/100-main.c.o CMakeFiles/argstostr.dir/100-argstostr.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/argstostr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = argstostr
+  TARGET_PDB = argstostr.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -268,7 +305,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug
 
-build all: phony 0x0B_malloc_free strdup str_concat alloc_grid free_grid
+build all: phony 0x0B_malloc_free strdup str_concat alloc_grid free_grid argstostr
 
 # =============================================================================
 # Built-in targets
