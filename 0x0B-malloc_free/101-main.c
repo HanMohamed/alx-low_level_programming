@@ -26,7 +26,7 @@ void print_tab(char **tab)
 int main(void)
 {
 	char **tab;
-	int i;
+	int i = 0;
 
 	tab = strtow("      ALX School         #cisfun      ");
 	if (tab == NULL)
