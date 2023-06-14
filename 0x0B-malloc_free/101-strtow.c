@@ -41,7 +41,7 @@ char **strtow(char *str)
 		str_word[i] = malloc(sizeof(char) * letters);
 		if (str_word[i] == NULL)
 		{
-			for (--i; i >= 0; i--)
+			for (; i >= 0; i--)
 				free(str_word[i]);
 			free(str_word);
 			return (NULL);
