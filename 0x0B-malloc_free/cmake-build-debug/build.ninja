@@ -271,6 +271,43 @@ build argstostr: C_EXECUTABLE_LINKER__argstostr_Debug CMakeFiles/argstostr.dir/1
   TARGET_FILE = argstostr
   TARGET_PDB = argstostr.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target strtow
+
+
+#############################################
+# Order-only phony target for strtow
+
+build cmake_object_order_depends_target_strtow: phony || CMakeFiles/strtow.dir
+
+build CMakeFiles/strtow.dir/101-main.c.o: C_COMPILER__strtow_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/101-main.c || cmake_object_order_depends_target_strtow
+  DEP_FILE = CMakeFiles/strtow.dir/101-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/strtow.dir
+  OBJECT_FILE_DIR = CMakeFiles/strtow.dir
+
+build CMakeFiles/strtow.dir/101-strtow.c.o: C_COMPILER__strtow_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/101-strtow.c || cmake_object_order_depends_target_strtow
+  DEP_FILE = CMakeFiles/strtow.dir/101-strtow.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/strtow.dir
+  OBJECT_FILE_DIR = CMakeFiles/strtow.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target strtow
+
+
+#############################################
+# Link the executable strtow
+
+build strtow: C_EXECUTABLE_LINKER__strtow_Debug CMakeFiles/strtow.dir/101-main.c.o CMakeFiles/strtow.dir/101-strtow.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/strtow.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = strtow
+  TARGET_PDB = strtow.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -305,7 +342,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug
 
-build all: phony 0x0B_malloc_free strdup str_concat alloc_grid free_grid argstostr
+build all: phony 0x0B_malloc_free strdup str_concat alloc_grid free_grid argstostr strtow
 
 # =============================================================================
 # Built-in targets
