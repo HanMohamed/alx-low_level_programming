@@ -19,4 +19,6 @@ char *argstostr(int ac, char **av);
 
 char **strtow(char *str);
 
+int number_words(char *str);
+
 #endif
