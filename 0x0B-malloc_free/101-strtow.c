@@ -36,7 +36,6 @@ char **strtow(char *str)
 		start = n;
 		for (; str[n] != ' '; n++)
 			letters++;
-		letters++;
 
 		str_word[i] = malloc(sizeof(char) * letters);
 		if (str_word[i] == NULL)
@@ -47,7 +46,7 @@ char **strtow(char *str)
 			return (NULL);
 		}
 
-		for (j = 0; j < letters - 1; j++)
+		for (j = 0; j < letters; j++)
 			str_word[i][j] = str[start++];
 		str_word[i][j] = '\0';
 	}
