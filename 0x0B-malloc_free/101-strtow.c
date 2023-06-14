@@ -33,7 +33,8 @@ char **strtow(char *str)
 		while (str[n] == ' ')
 			n++;
 		start = n;
-		for (; str[n] != ' '; n++)
+
+		for (; str[n] != ' ' && str[n] != '\0'; n++)
 			letters++;
 		letters++;
 
@@ -70,12 +71,11 @@ int number_words(char *str)
 		while (str[str_size] && str[str_size] == ' ')
 			str_size++;
 
+		if (str[str_size])
+			num_words++;
+
 		while (str[str_size] && str[str_size] != ' ')
-		{
 			str_size++;
-			if (!str[str_size] || str[str_size] == ' ')
-				num_words++;
-		}
 }
 	return (num_words);
 }
