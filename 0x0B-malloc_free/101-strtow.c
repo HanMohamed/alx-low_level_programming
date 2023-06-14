@@ -51,7 +51,7 @@ char **strtow(char *str)
 			str_word[i][j] = str[start++];
 		str_word[i][j] = '\0';
 	}
-	str_word[num_words + 1] = NULL;
+	str_word[num_words] = NULL;
 	return (str_word);
 }
 
