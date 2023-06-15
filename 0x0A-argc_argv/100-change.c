@@ -22,7 +22,11 @@ int main(int argc, char *argv[])
 	}
 	money = atoi(argv[1]);
 	change = 0;
-
+	if (money <= 0)
+	{
+		printf("Error\n");
+		return (1);
+	}
 	if (money >= 25)
 	{
 		change = money / 25;
@@ -44,11 +48,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	if (money % 5 == 0 || money % 5 == 1 || money % 5 == 2)
-	{
 		change++;
-		printf("%d\n", change);
-		return (0);
-	}
 	else
 		change = change + 2;
 	printf("%d\n", change);
