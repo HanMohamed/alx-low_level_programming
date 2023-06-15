@@ -45,17 +45,16 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	else
 		size = new_size;
 
-	realloc_ptr = malloc(size);
+	realloc_ptr = malloc(new_size);
 	if (realloc_ptr == NULL)
 		return (NULL);
 
 	char_ptr = (char *) ptr;
 	i = 0;
-	while (old_size < new_size)
+	while (i < size)
 	{
 		realloc_ptr[i] = char_ptr[i];
 		i++;
-		old_size++;
 	}
 
 	free(ptr);
