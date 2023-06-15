@@ -50,11 +50,11 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 	char_ptr = (char *) ptr;
 	i = 0;
-
-	while (i < size)
+	while (old_size < new_size)
 	{
 		realloc_ptr[i] = char_ptr[i];
 		i++;
+		old_size++;
 	}
 
 	free(ptr);
