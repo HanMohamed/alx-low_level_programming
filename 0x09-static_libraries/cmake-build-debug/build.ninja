@@ -1,0 +1,241 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: 0x09_static_libraries
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target 0x09_static_libraries
+
+
+#############################################
+# Order-only phony target for 0x09_static_libraries
+
+build cmake_object_order_depends_target_0x09_static_libraries: phony || CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/100-atoi.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/100-atoi.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/100-atoi.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/1-strncat.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/1-strncat.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/1-strncat.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/0-isupper.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/0-isupper.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/0-isupper.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/0-memset.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/0-memset.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/0-memset.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/0-strcat.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/0-strcat.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/0-strcat.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/1-isdigit.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/1-isdigit.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/1-isdigit.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/1-memcpy.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/1-memcpy.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/1-memcpy.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/2-strchr.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/2-strchr.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/2-strchr.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/2-strlen.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/2-strlen.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/2-strlen.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/3-islower.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/3-islower.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/3-islower.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/3-puts.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/3-puts.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/3-puts.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/9-strcpy.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/9-strcpy.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/9-strcpy.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/6-abs.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/6-abs.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/6-abs.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/5-strstr.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/5-strstr.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/5-strstr.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/4-strpbrk.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/4-strpbrk.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/4-strpbrk.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/4-isalpha.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/4-isalpha.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/4-isalpha.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/3-strspn.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/3-strspn.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/3-strspn.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+build CMakeFiles/0x09_static_libraries.dir/main.c.o: C_COMPILER__0x09_static_libraries_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/main.c || cmake_object_order_depends_target_0x09_static_libraries
+  DEP_FILE = CMakeFiles/0x09_static_libraries.dir/main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x09_static_libraries.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 0x09_static_libraries
+
+
+#############################################
+# Link the executable 0x09_static_libraries
+
+build 0x09_static_libraries: C_EXECUTABLE_LINKER__0x09_static_libraries_Debug CMakeFiles/0x09_static_libraries.dir/100-atoi.c.o CMakeFiles/0x09_static_libraries.dir/1-strncat.c.o CMakeFiles/0x09_static_libraries.dir/0-isupper.c.o CMakeFiles/0x09_static_libraries.dir/0-memset.c.o CMakeFiles/0x09_static_libraries.dir/0-strcat.c.o CMakeFiles/0x09_static_libraries.dir/1-isdigit.c.o CMakeFiles/0x09_static_libraries.dir/1-memcpy.c.o CMakeFiles/0x09_static_libraries.dir/2-strchr.c.o CMakeFiles/0x09_static_libraries.dir/2-strlen.c.o CMakeFiles/0x09_static_libraries.dir/3-islower.c.o CMakeFiles/0x09_static_libraries.dir/3-puts.c.o CMakeFiles/0x09_static_libraries.dir/9-strcpy.c.o CMakeFiles/0x09_static_libraries.dir/6-abs.c.o CMakeFiles/0x09_static_libraries.dir/5-strstr.c.o CMakeFiles/0x09_static_libraries.dir/4-strpbrk.c.o CMakeFiles/0x09_static_libraries.dir/4-isalpha.c.o CMakeFiles/0x09_static_libraries.dir/3-strspn.c.o CMakeFiles/0x09_static_libraries.dir/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/0x09_static_libraries.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 0x09_static_libraries
+  TARGET_PDB = 0x09_static_libraries.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries -B/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/cmake-build-debug
+
+build all: phony 0x09_static_libraries
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

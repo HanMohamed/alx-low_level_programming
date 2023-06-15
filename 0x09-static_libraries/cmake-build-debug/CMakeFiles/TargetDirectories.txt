@@ -1,0 +1,3 @@
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/cmake-build-debug/CMakeFiles/0x09_static_libraries.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x09-static_libraries/cmake-build-debug/CMakeFiles/rebuild_cache.dir
