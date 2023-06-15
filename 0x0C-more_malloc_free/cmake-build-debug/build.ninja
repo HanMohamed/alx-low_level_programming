@@ -83,7 +83,7 @@ build 0x0C_more_malloc_free: C_EXECUTABLE_LINKER__0x0C_more_malloc_free_Debug CM
 
 build cmake_object_order_depends_target_string_nconcat: phony || CMakeFiles/string_nconcat.dir
 
-build CMakeFiles/string_nconcat.dir/1-main.c.o: C_COMPILER__string_nconcat_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/1-main.c || cmake_object_order_depends_target_string_nconcat
+build CMakeFiles/string_nconcat.dir/1-main.c.o: C_COMPILER__string_nconcat_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/1-main.c || cmake_object_order_depends_target_string_nconcat
   DEP_FILE = CMakeFiles/string_nconcat.dir/1-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/string_nconcat.dir
@@ -237,6 +237,12 @@ build CMakeFiles/mul.dir/101-mul.c.o: C_COMPILER__mul_Debug /Users/hanosh/Librar
   OBJECT_DIR = CMakeFiles/mul.dir
   OBJECT_FILE_DIR = CMakeFiles/mul.dir
 
+build CMakeFiles/mul.dir/_putchar.c.o: C_COMPILER__mul_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/_putchar.c || cmake_object_order_depends_target_mul
+  DEP_FILE = CMakeFiles/mul.dir/_putchar.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/mul.dir
+  OBJECT_FILE_DIR = CMakeFiles/mul.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target mul
@@ -245,7 +251,7 @@ build CMakeFiles/mul.dir/101-mul.c.o: C_COMPILER__mul_Debug /Users/hanosh/Librar
 #############################################
 # Link the executable mul
 
-build mul: C_EXECUTABLE_LINKER__mul_Debug CMakeFiles/mul.dir/101-mul.c.o
+build mul: C_EXECUTABLE_LINKER__mul_Debug CMakeFiles/mul.dir/101-mul.c.o CMakeFiles/mul.dir/_putchar.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/mul.dir
   POST_BUILD = :
