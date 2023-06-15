@@ -1,6 +1,6 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 
 /**
  * main - check the code
@@ -9,10 +9,10 @@
  */
 int main(void)
 {
-    char *concat;
+	char *concat;
 
-    concat = string_nconcat("Best ", "School !!!", 6);
-    printf("%s\n", concat);
-    free(concat);
-    return (0);
+	concat = string_nconcat("Best ", "School !!!", 6);
+	printf("%s\n", concat);
+	free(concat);
+	return (0);
 }

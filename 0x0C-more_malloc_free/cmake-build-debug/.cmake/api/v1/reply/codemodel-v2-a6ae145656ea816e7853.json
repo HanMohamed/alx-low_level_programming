@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "0x0C_more_malloc_free",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "0x0C_more_malloc_free::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-0x0C_more_malloc_free-Debug-d1ee7f2d98369570132a.json",
+					"name" : "0x0C_more_malloc_free",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "array_range::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-array_range-Debug-45b373e02d7c97009ea0.json",
+					"name" : "array_range",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "calloc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-calloc-Debug-a597e698e2c5b456ff48.json",
+					"name" : "calloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mul::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mul-Debug-0f6ab93780f94de9ddd7.json",
+					"name" : "mul",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "realloc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-realloc-Debug-cffc420accadd2a523bc.json",
+					"name" : "realloc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "string_nconcat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-string_nconcat-Debug-a99989ba994d1c7a855a.json",
+					"name" : "string_nconcat",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug",
+		"source" : "/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

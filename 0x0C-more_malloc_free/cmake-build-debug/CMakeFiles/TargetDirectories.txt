@@ -1,0 +1,8 @@
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/0x0C_more_malloc_free.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/string_nconcat.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/calloc.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/array_range.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/realloc.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/mul.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/CMakeFiles/rebuild_cache.dir

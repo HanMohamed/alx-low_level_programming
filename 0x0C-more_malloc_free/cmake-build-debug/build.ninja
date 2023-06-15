@@ -1,0 +1,324 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: 0x0C_more_malloc_free
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target 0x0C_more_malloc_free
+
+
+#############################################
+# Order-only phony target for 0x0C_more_malloc_free
+
+build cmake_object_order_depends_target_0x0C_more_malloc_free: phony || CMakeFiles/0x0C_more_malloc_free.dir
+
+build CMakeFiles/0x0C_more_malloc_free.dir/0-main.c.o: C_COMPILER__0x0C_more_malloc_free_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/0-main.c || cmake_object_order_depends_target_0x0C_more_malloc_free
+  DEP_FILE = CMakeFiles/0x0C_more_malloc_free.dir/0-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x0C_more_malloc_free.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x0C_more_malloc_free.dir
+
+build CMakeFiles/0x0C_more_malloc_free.dir/0-malloc_checked.c.o: C_COMPILER__0x0C_more_malloc_free_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/0-malloc_checked.c || cmake_object_order_depends_target_0x0C_more_malloc_free
+  DEP_FILE = CMakeFiles/0x0C_more_malloc_free.dir/0-malloc_checked.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x0C_more_malloc_free.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x0C_more_malloc_free.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 0x0C_more_malloc_free
+
+
+#############################################
+# Link the executable 0x0C_more_malloc_free
+
+build 0x0C_more_malloc_free: C_EXECUTABLE_LINKER__0x0C_more_malloc_free_Debug CMakeFiles/0x0C_more_malloc_free.dir/0-main.c.o CMakeFiles/0x0C_more_malloc_free.dir/0-malloc_checked.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/0x0C_more_malloc_free.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 0x0C_more_malloc_free
+  TARGET_PDB = 0x0C_more_malloc_free.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string_nconcat
+
+
+#############################################
+# Order-only phony target for string_nconcat
+
+build cmake_object_order_depends_target_string_nconcat: phony || CMakeFiles/string_nconcat.dir
+
+build CMakeFiles/string_nconcat.dir/1-main.c.o: C_COMPILER__string_nconcat_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug/1-main.c || cmake_object_order_depends_target_string_nconcat
+  DEP_FILE = CMakeFiles/string_nconcat.dir/1-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/string_nconcat.dir
+  OBJECT_FILE_DIR = CMakeFiles/string_nconcat.dir
+
+build CMakeFiles/string_nconcat.dir/1-string_nconcat.c.o: C_COMPILER__string_nconcat_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/1-string_nconcat.c || cmake_object_order_depends_target_string_nconcat
+  DEP_FILE = CMakeFiles/string_nconcat.dir/1-string_nconcat.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/string_nconcat.dir
+  OBJECT_FILE_DIR = CMakeFiles/string_nconcat.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string_nconcat
+
+
+#############################################
+# Link the executable string_nconcat
+
+build string_nconcat: C_EXECUTABLE_LINKER__string_nconcat_Debug CMakeFiles/string_nconcat.dir/1-main.c.o CMakeFiles/string_nconcat.dir/1-string_nconcat.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/string_nconcat.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = string_nconcat
+  TARGET_PDB = string_nconcat.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target calloc
+
+
+#############################################
+# Order-only phony target for calloc
+
+build cmake_object_order_depends_target_calloc: phony || CMakeFiles/calloc.dir
+
+build CMakeFiles/calloc.dir/2-main.c.o: C_COMPILER__calloc_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/2-main.c || cmake_object_order_depends_target_calloc
+  DEP_FILE = CMakeFiles/calloc.dir/2-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/calloc.dir
+  OBJECT_FILE_DIR = CMakeFiles/calloc.dir
+
+build CMakeFiles/calloc.dir/2-calloc.c.o: C_COMPILER__calloc_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/2-calloc.c || cmake_object_order_depends_target_calloc
+  DEP_FILE = CMakeFiles/calloc.dir/2-calloc.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/calloc.dir
+  OBJECT_FILE_DIR = CMakeFiles/calloc.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target calloc
+
+
+#############################################
+# Link the executable calloc
+
+build calloc: C_EXECUTABLE_LINKER__calloc_Debug CMakeFiles/calloc.dir/2-main.c.o CMakeFiles/calloc.dir/2-calloc.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/calloc.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = calloc
+  TARGET_PDB = calloc.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target array_range
+
+
+#############################################
+# Order-only phony target for array_range
+
+build cmake_object_order_depends_target_array_range: phony || CMakeFiles/array_range.dir
+
+build CMakeFiles/array_range.dir/3-main.c.o: C_COMPILER__array_range_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/3-main.c || cmake_object_order_depends_target_array_range
+  DEP_FILE = CMakeFiles/array_range.dir/3-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/array_range.dir
+  OBJECT_FILE_DIR = CMakeFiles/array_range.dir
+
+build CMakeFiles/array_range.dir/3-array_range.c.o: C_COMPILER__array_range_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/3-array_range.c || cmake_object_order_depends_target_array_range
+  DEP_FILE = CMakeFiles/array_range.dir/3-array_range.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/array_range.dir
+  OBJECT_FILE_DIR = CMakeFiles/array_range.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target array_range
+
+
+#############################################
+# Link the executable array_range
+
+build array_range: C_EXECUTABLE_LINKER__array_range_Debug CMakeFiles/array_range.dir/3-main.c.o CMakeFiles/array_range.dir/3-array_range.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/array_range.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = array_range
+  TARGET_PDB = array_range.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target realloc
+
+
+#############################################
+# Order-only phony target for realloc
+
+build cmake_object_order_depends_target_realloc: phony || CMakeFiles/realloc.dir
+
+build CMakeFiles/realloc.dir/100-main.c.o: C_COMPILER__realloc_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/100-main.c || cmake_object_order_depends_target_realloc
+  DEP_FILE = CMakeFiles/realloc.dir/100-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/realloc.dir
+  OBJECT_FILE_DIR = CMakeFiles/realloc.dir
+
+build CMakeFiles/realloc.dir/100-realloc.c.o: C_COMPILER__realloc_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/100-realloc.c || cmake_object_order_depends_target_realloc
+  DEP_FILE = CMakeFiles/realloc.dir/100-realloc.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/realloc.dir
+  OBJECT_FILE_DIR = CMakeFiles/realloc.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target realloc
+
+
+#############################################
+# Link the executable realloc
+
+build realloc: C_EXECUTABLE_LINKER__realloc_Debug CMakeFiles/realloc.dir/100-main.c.o CMakeFiles/realloc.dir/100-realloc.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/realloc.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = realloc
+  TARGET_PDB = realloc.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mul
+
+
+#############################################
+# Order-only phony target for mul
+
+build cmake_object_order_depends_target_mul: phony || CMakeFiles/mul.dir
+
+build CMakeFiles/mul.dir/101-mul.c.o: C_COMPILER__mul_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/101-mul.c || cmake_object_order_depends_target_mul
+  DEP_FILE = CMakeFiles/mul.dir/101-mul.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/mul.dir
+  OBJECT_FILE_DIR = CMakeFiles/mul.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mul
+
+
+#############################################
+# Link the executable mul
+
+build mul: C_EXECUTABLE_LINKER__mul_Debug CMakeFiles/mul.dir/101-mul.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/mul.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = mul
+  TARGET_PDB = mul.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free -B/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/cmake-build-debug
+
+build all: phony 0x0C_more_malloc_free string_nconcat calloc array_range realloc mul
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0C-more_malloc_free/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
