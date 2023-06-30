@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "0x0B_malloc_free",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "0x0B_malloc_free::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-0x0B_malloc_free-Debug-e556e2c0cabc8d35e3a3.json",
+					"name" : "0x0B_malloc_free",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "alloc_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-alloc_grid-Debug-b84b22444675be96dabf.json",
+					"name" : "alloc_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "argstostr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-argstostr-Debug-45d1ab6d2493416ea493.json",
+					"name" : "argstostr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "free_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-free_grid-Debug-3533bac0f360c372c2d2.json",
+					"name" : "free_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "str_concat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-str_concat-Debug-f9448c4e374baaf6a205.json",
+					"name" : "str_concat",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strdup::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strdup-Debug-c58ddf590f0f8fbb881b.json",
+					"name" : "strdup",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strtow::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strtow-Debug-048e2625dde4e7d5ca7c.json",
+					"name" : "strtow",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free/cmake-build-debug",
+		"source" : "/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0B-malloc_free"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
