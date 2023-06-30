@@ -111,6 +111,49 @@ build len: C_EXECUTABLE_LINKER__len_Debug CMakeFiles/len.dir/1-list_len.c.o CMak
   TARGET_FILE = len
   TARGET_PDB = len.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target add_begin
+
+
+#############################################
+# Order-only phony target for add_begin
+
+build cmake_object_order_depends_target_add_begin: phony || CMakeFiles/add_begin.dir
+
+build CMakeFiles/add_begin.dir/2-main.c.o: C_COMPILER__add_begin_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/2-main.c || cmake_object_order_depends_target_add_begin
+  DEP_FILE = CMakeFiles/add_begin.dir/2-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/add_begin.dir
+  OBJECT_FILE_DIR = CMakeFiles/add_begin.dir
+
+build CMakeFiles/add_begin.dir/2-add_node.c.o: C_COMPILER__add_begin_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/2-add_node.c || cmake_object_order_depends_target_add_begin
+  DEP_FILE = CMakeFiles/add_begin.dir/2-add_node.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/add_begin.dir
+  OBJECT_FILE_DIR = CMakeFiles/add_begin.dir
+
+build CMakeFiles/add_begin.dir/0-print_list.c.o: C_COMPILER__add_begin_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/0-print_list.c || cmake_object_order_depends_target_add_begin
+  DEP_FILE = CMakeFiles/add_begin.dir/0-print_list.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/add_begin.dir
+  OBJECT_FILE_DIR = CMakeFiles/add_begin.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target add_begin
+
+
+#############################################
+# Link the executable add_begin
+
+build add_begin: C_EXECUTABLE_LINKER__add_begin_Debug CMakeFiles/add_begin.dir/2-main.c.o CMakeFiles/add_begin.dir/2-add_node.c.o CMakeFiles/add_begin.dir/0-print_list.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/add_begin.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = add_begin
+  TARGET_PDB = add_begin.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -145,7 +188,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/cmake-build-debug
 
-build all: phony 0x12_singly_linked_lists len
+build all: phony 0x12_singly_linked_lists len add_begin
 
 # =============================================================================
 # Built-in targets

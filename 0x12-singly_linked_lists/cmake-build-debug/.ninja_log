@@ -1,4 +1,22 @@
 # ninja log v5
 0	36	1688148957030502531	CMakeFiles/0x12_singly_linked_lists.dir/0-print_list.c.o	fd485b11ccb7818
-36	74	1688148957069304909	0x12_singly_linked_lists	8605b8c7922a187b
-0	36	1688148957030495407	CMakeFiles/0x12_singly_linked_lists.dir/0-main.c.o	704f63fcb8348011
+43	80	1688150125377707575	0x12_singly_linked_lists	8605b8c7922a187b
+1	43	1688150125339403138	CMakeFiles/0x12_singly_linked_lists.dir/0-main.c.o	704f63fcb8348011
+1	28	1688150129849188758	CMakeFiles/add_begin.dir/2-main.c.o	3be778b9c1f77e8f
+0	29	1688150129849145450	CMakeFiles/add_begin.dir/2-add_node.c.o	80ad61aead4fa75b
+0	36	1688150206276311227	CMakeFiles/add_begin.dir/0-print_list.c.o	73d551a4f8a00d91
+37	73	1688150206313487506	add_begin	dcd10d0061538e43
+0	37	1688150263295398480	CMakeFiles/add_begin.dir/2-add_node.c.o	80ad61aead4fa75b
+37	74	1688150263333016191	add_begin	dcd10d0061538e43
+1	105	1688150477593685507	CMakeFiles/add_begin.dir/2-add_node.c.o	80ad61aead4fa75b
+105	139	1688150477628252588	add_begin	dcd10d0061538e43
+1	39	1688150664337160125	CMakeFiles/add_begin.dir/2-add_node.c.o	80ad61aead4fa75b
+39	83	1688150664381700983	add_begin	dcd10d0061538e43
+1	38	1688150870123238940	CMakeFiles/add_begin.dir/2-add_node.c.o	80ad61aead4fa75b
+38	70	1688150870157480655	add_begin	dcd10d0061538e43
+1	27	1688150879815231220	CMakeFiles/add_begin.dir/2-add_node.c.o	80ad61aead4fa75b
+27	61	1688150879850531157	add_begin	dcd10d0061538e43
+0	30	1688150905220115328	CMakeFiles/add_begin.dir/2-add_node.c.o	80ad61aead4fa75b
+30	63	1688150905254117007	add_begin	dcd10d0061538e43
+1	25	1688150927269623936	CMakeFiles/add_begin.dir/2-add_node.c.o	80ad61aead4fa75b
+25	60	1688150927305357653	add_begin	dcd10d0061538e43
