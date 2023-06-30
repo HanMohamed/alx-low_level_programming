@@ -1,0 +1,4 @@
+# ninja log v5
+0	36	1688148957030502531	CMakeFiles/0x12_singly_linked_lists.dir/0-print_list.c.o	fd485b11ccb7818
+0	36	1688148957030495407	CMakeFiles/0x12_singly_linked_lists.dir/0-main.c.o	704f63fcb8348011
+36	74	1688148957069304909	0x12_singly_linked_lists	8605b8c7922a187b
