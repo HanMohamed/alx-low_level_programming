@@ -3,5 +3,6 @@
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/cmake-build-debug/CMakeFiles/add_begin.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/cmake-build-debug/CMakeFiles/add_end.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/cmake-build-debug/CMakeFiles/free.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/cmake-build-debug/CMakeFiles/first.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/cmake-build-debug/CMakeFiles/rebuild_cache.dir
