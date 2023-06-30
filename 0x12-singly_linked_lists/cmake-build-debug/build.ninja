@@ -74,6 +74,43 @@ build 0x12_singly_linked_lists: C_EXECUTABLE_LINKER__0x12_singly_linked_lists_De
   TARGET_FILE = 0x12_singly_linked_lists
   TARGET_PDB = 0x12_singly_linked_lists.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target len
+
+
+#############################################
+# Order-only phony target for len
+
+build cmake_object_order_depends_target_len: phony || CMakeFiles/len.dir
+
+build CMakeFiles/len.dir/1-list_len.c.o: C_COMPILER__len_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/1-list_len.c || cmake_object_order_depends_target_len
+  DEP_FILE = CMakeFiles/len.dir/1-list_len.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/len.dir
+  OBJECT_FILE_DIR = CMakeFiles/len.dir
+
+build CMakeFiles/len.dir/1-main.c.o: C_COMPILER__len_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/1-main.c || cmake_object_order_depends_target_len
+  DEP_FILE = CMakeFiles/len.dir/1-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/len.dir
+  OBJECT_FILE_DIR = CMakeFiles/len.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target len
+
+
+#############################################
+# Link the executable len
+
+build len: C_EXECUTABLE_LINKER__len_Debug CMakeFiles/len.dir/1-list_len.c.o CMakeFiles/len.dir/1-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/len.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = len
+  TARGET_PDB = len.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -108,7 +145,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x12-singly_linked_lists/cmake-build-debug
 
-build all: phony 0x12_singly_linked_lists
+build all: phony 0x12_singly_linked_lists len
 
 # =============================================================================
 # Built-in targets
