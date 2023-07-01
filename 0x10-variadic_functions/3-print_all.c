@@ -20,43 +20,33 @@ void print_all(const char * const format, ...)
 {
 	va_list ap;
 	int i, separator;
+	char *str;
 
 	va_start(ap, format);
 	i = separator = 0;
-
 	while (format != NULL && format[i] != '\0')
 	{
 		switch (format[i])
 		{
 			case 'c':
-			{
 				printf("%c", va_arg(ap, int));
 				separator = 1;
 				break;
-			}
 			case 'i':
-			{
 				printf("%d", va_arg(ap, int));
 				separator = 1;
 				break;
-			}
 			case 'f':
-			{
 				printf("%f", va_arg(ap, double));
 				separator = 1;
 				break;
-			}
 			case 's':
-			{
-				if (va_arg(ap, char*) == NULL)
-				{
-					printf("(nil)");
-					break;
-				}
-				printf("%s", va_arg(ap, char*));
+				str = va_arg(ap, char*);
+				if (str == NULL)
+					str = "(nil)";
+				printf("%s", str);
 				separator = 1;
 				break;
-			}
 			default:
 				separator = 0;
 		}
