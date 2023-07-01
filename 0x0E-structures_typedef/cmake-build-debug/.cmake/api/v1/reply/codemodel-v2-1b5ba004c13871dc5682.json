@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -52,6 +54,13 @@
 					"id" : "init::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-init-Debug-b28fe4b993b0a30a149c.json",
 					"name" : "init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new-Debug-da1b9d7576aefed8c39c.json",
+					"name" : "new",
 					"projectIndex" : 0
 				},
 				{
