@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -47,6 +49,13 @@
 					"id" : "0x0E_structures_typedef::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-0x0E_structures_typedef-Debug-4da2de5654809b2e2438.json",
 					"name" : "0x0E_structures_typedef",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "free::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-free-Debug-1a10f2bf090bf9af006e.json",
+					"name" : "free",
 					"projectIndex" : 0
 				},
 				{

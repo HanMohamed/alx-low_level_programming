@@ -185,6 +185,43 @@ build new: C_EXECUTABLE_LINKER__new_Debug CMakeFiles/new.dir/4-main.c.o CMakeFil
   TARGET_FILE = new
   TARGET_PDB = new.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target free
+
+
+#############################################
+# Order-only phony target for free
+
+build cmake_object_order_depends_target_free: phony || CMakeFiles/free.dir
+
+build CMakeFiles/free.dir/5-main.c.o: C_COMPILER__free_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/5-main.c || cmake_object_order_depends_target_free
+  DEP_FILE = CMakeFiles/free.dir/5-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/free.dir
+  OBJECT_FILE_DIR = CMakeFiles/free.dir
+
+build CMakeFiles/free.dir/5-free_dog.c.o: C_COMPILER__free_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/5-free_dog.c || cmake_object_order_depends_target_free
+  DEP_FILE = CMakeFiles/free.dir/5-free_dog.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/free.dir
+  OBJECT_FILE_DIR = CMakeFiles/free.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target free
+
+
+#############################################
+# Link the executable free
+
+build free: C_EXECUTABLE_LINKER__free_Debug CMakeFiles/free.dir/5-main.c.o CMakeFiles/free.dir/5-free_dog.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/free.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = free
+  TARGET_PDB = free.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -219,7 +256,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/cmake-build-debug
 
-build all: phony 0x0E_structures_typedef init print new
+build all: phony 0x0E_structures_typedef init print new free
 
 # =============================================================================
 # Built-in targets
