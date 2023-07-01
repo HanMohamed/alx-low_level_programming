@@ -52,6 +52,12 @@ build CMakeFiles/0x0E_structures_typedef.dir/0-main.c.o: C_COMPILER__0x0E_struct
   OBJECT_DIR = CMakeFiles/0x0E_structures_typedef.dir
   OBJECT_FILE_DIR = CMakeFiles/0x0E_structures_typedef.dir
 
+build CMakeFiles/0x0E_structures_typedef.dir/3-main.c.o: C_COMPILER__0x0E_structures_typedef_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/3-main.c || cmake_object_order_depends_target_0x0E_structures_typedef
+  DEP_FILE = CMakeFiles/0x0E_structures_typedef.dir/3-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x0E_structures_typedef.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x0E_structures_typedef.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 0x0E_structures_typedef
@@ -60,7 +66,7 @@ build CMakeFiles/0x0E_structures_typedef.dir/0-main.c.o: C_COMPILER__0x0E_struct
 #############################################
 # Link the executable 0x0E_structures_typedef
 
-build 0x0E_structures_typedef: C_EXECUTABLE_LINKER__0x0E_structures_typedef_Debug CMakeFiles/0x0E_structures_typedef.dir/0-main.c.o
+build 0x0E_structures_typedef: C_EXECUTABLE_LINKER__0x0E_structures_typedef_Debug CMakeFiles/0x0E_structures_typedef.dir/0-main.c.o CMakeFiles/0x0E_structures_typedef.dir/3-main.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/0x0E_structures_typedef.dir
   POST_BUILD = :
