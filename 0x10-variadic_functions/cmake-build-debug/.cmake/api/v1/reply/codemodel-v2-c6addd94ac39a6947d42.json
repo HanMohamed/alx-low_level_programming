@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "print::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-print-Debug-bc506b9d7999ad9c252a.json",
 					"name" : "print",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "print_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-print_all-Debug-2f26c9adfeb8e9c7e2b6.json",
+					"name" : "print_all",
 					"projectIndex" : 0
 				}
 			]
