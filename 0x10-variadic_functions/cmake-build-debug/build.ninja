@@ -148,6 +148,43 @@ build print_all: C_EXECUTABLE_LINKER__print_all_Debug CMakeFiles/print_all.dir/3
   TARGET_FILE = print_all
   TARGET_PDB = print_all.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target string
+
+
+#############################################
+# Order-only phony target for string
+
+build cmake_object_order_depends_target_string: phony || CMakeFiles/string.dir
+
+build CMakeFiles/string.dir/2-print_strings.c.o: C_COMPILER__string_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x10-variadic_functions/2-print_strings.c || cmake_object_order_depends_target_string
+  DEP_FILE = CMakeFiles/string.dir/2-print_strings.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/string.dir
+  OBJECT_FILE_DIR = CMakeFiles/string.dir
+
+build CMakeFiles/string.dir/2-main.c.o: C_COMPILER__string_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x10-variadic_functions/2-main.c || cmake_object_order_depends_target_string
+  DEP_FILE = CMakeFiles/string.dir/2-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/string.dir
+  OBJECT_FILE_DIR = CMakeFiles/string.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string
+
+
+#############################################
+# Link the executable string
+
+build string: C_EXECUTABLE_LINKER__string_Debug CMakeFiles/string.dir/2-print_strings.c.o CMakeFiles/string.dir/2-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = string
+  TARGET_PDB = string.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -182,7 +219,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x10-variadic_functions/cmake-build-debug
 
-build all: phony 0x10_variadic_functions print print_all
+build all: phony 0x10_variadic_functions print print_all string
 
 # =============================================================================
 # Built-in targets

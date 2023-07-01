@@ -1,7 +1,13 @@
 # ninja log v5
-0	19	1688177873860923048	CMakeFiles/print.dir/1-main.c.o	630dd157b7eab7f7
-1	26	1688177897600513926	CMakeFiles/print.dir/1-print_numbers.c.o	564619ab671c0aec
-1	108	1688177869202257192	CMakeFiles/0x10_variadic_functions.dir/0-sum_them_all.c.o	bebdf3067e89be14
-0	117	1688175328540187186	CMakeFiles/0x10_variadic_functions.dir/0-main.c.o	135a1c50c3337f96
-108	146	1688177869241831630	0x10_variadic_functions	c73a5f2911c3cb16
 26	60	1688177897635673940	print	b7a2d469f36c7e94
+108	146	1688177869241831630	0x10_variadic_functions	c73a5f2911c3cb16
+0	117	1688175328540187186	CMakeFiles/0x10_variadic_functions.dir/0-main.c.o	135a1c50c3337f96
+1	108	1688177869202257192	CMakeFiles/0x10_variadic_functions.dir/0-sum_them_all.c.o	bebdf3067e89be14
+1	26	1688177897600513926	CMakeFiles/print.dir/1-print_numbers.c.o	564619ab671c0aec
+0	19	1688177873860923048	CMakeFiles/print.dir/1-main.c.o	630dd157b7eab7f7
+1	53	1688182167558863245	build.ninja	7718a026199fe0eb
+1	65	1688182167633348494	CMakeFiles/print.dir/1-print_numbers.c.o	564619ab671c0aec
+65	111	1688182167680487705	print	b7a2d469f36c7e94
+0	23	1688182174830027361	CMakeFiles/string.dir/2-main.c.o	3ab9399299a5602d
+0	27	1688182174833476444	CMakeFiles/string.dir/2-print_strings.c.o	203ba5624561cf30
+27	59	1688182174866797992	string	154ac33132cc84fd
