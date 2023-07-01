@@ -1,0 +1,16 @@
+# ninja log v5
+0	117	1688175328540187520	CMakeFiles/0x10_variadic_functions.dir/0-sum_them_all.c.o	bebdf3067e89be14
+0	117	1688175328540187186	CMakeFiles/0x10_variadic_functions.dir/0-main.c.o	135a1c50c3337f96
+117	156	1688175328580082269	0x10_variadic_functions	c73a5f2911c3cb16
+1	25	1688175359656146916	CMakeFiles/0x10_variadic_functions.dir/0-sum_them_all.c.o	bebdf3067e89be14
+26	59	1688175359690398843	0x10_variadic_functions	c73a5f2911c3cb16
+0	28	1688175437121475204	CMakeFiles/0x10_variadic_functions.dir/0-sum_them_all.c.o	bebdf3067e89be14
+28	67	1688175437160995757	0x10_variadic_functions	c73a5f2911c3cb16
+1	26	1688175728290653501	CMakeFiles/0x10_variadic_functions.dir/0-sum_them_all.c.o	bebdf3067e89be14
+26	59	1688175728324280364	0x10_variadic_functions	c73a5f2911c3cb16
+1	26	1688175777724911761	CMakeFiles/0x10_variadic_functions.dir/0-sum_them_all.c.o	bebdf3067e89be14
+27	64	1688175777762779449	0x10_variadic_functions	c73a5f2911c3cb16
+0	27	1688175851110234074	CMakeFiles/0x10_variadic_functions.dir/0-sum_them_all.c.o	bebdf3067e89be14
+27	60	1688175851144732034	0x10_variadic_functions	c73a5f2911c3cb16
+1	111	1688176811647133769	CMakeFiles/0x10_variadic_functions.dir/0-sum_them_all.c.o	bebdf3067e89be14
+112	151	1688176811686879879	0x10_variadic_functions	c73a5f2911c3cb16
