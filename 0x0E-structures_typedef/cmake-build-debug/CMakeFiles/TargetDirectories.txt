@@ -1,4 +1,5 @@
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/cmake-build-debug/CMakeFiles/0x0E_structures_typedef.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/cmake-build-debug/CMakeFiles/init.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/cmake-build-debug/CMakeFiles/print.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/cmake-build-debug/CMakeFiles/rebuild_cache.dir

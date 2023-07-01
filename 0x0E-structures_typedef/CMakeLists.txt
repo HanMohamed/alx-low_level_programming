@@ -5,3 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(0x0E_structures_typedef 0-main.c dog.h)
 add_executable(init 1-main.c 1-init_dog.c)
+add_executable(print 2-print_dog.c 2-main.c)
