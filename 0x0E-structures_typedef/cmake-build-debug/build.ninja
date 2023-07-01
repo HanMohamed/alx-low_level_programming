@@ -68,6 +68,43 @@ build 0x0E_structures_typedef: C_EXECUTABLE_LINKER__0x0E_structures_typedef_Debu
   TARGET_FILE = 0x0E_structures_typedef
   TARGET_PDB = 0x0E_structures_typedef.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target init
+
+
+#############################################
+# Order-only phony target for init
+
+build cmake_object_order_depends_target_init: phony || CMakeFiles/init.dir
+
+build CMakeFiles/init.dir/1-main.c.o: C_COMPILER__init_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/1-main.c || cmake_object_order_depends_target_init
+  DEP_FILE = CMakeFiles/init.dir/1-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/init.dir
+  OBJECT_FILE_DIR = CMakeFiles/init.dir
+
+build CMakeFiles/init.dir/1-init_dog.c.o: C_COMPILER__init_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/1-init_dog.c || cmake_object_order_depends_target_init
+  DEP_FILE = CMakeFiles/init.dir/1-init_dog.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/init.dir
+  OBJECT_FILE_DIR = CMakeFiles/init.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target init
+
+
+#############################################
+# Link the executable init
+
+build init: C_EXECUTABLE_LINKER__init_Debug CMakeFiles/init.dir/1-main.c.o CMakeFiles/init.dir/1-init_dog.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/init.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = init
+  TARGET_PDB = init.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -102,7 +139,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0E-structures_typedef/cmake-build-debug
 
-build all: phony 0x0E_structures_typedef
+build all: phony 0x0E_structures_typedef init
 
 # =============================================================================
 # Built-in targets

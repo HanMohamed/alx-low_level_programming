@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "0x0E_structures_typedef",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "0x0E_structures_typedef::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-0x0E_structures_typedef-Debug-15cdf561106aeddba436.json",
 					"name" : "0x0E_structures_typedef",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "init::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-init-Debug-b28fe4b993b0a30a149c.json",
+					"name" : "init",
 					"projectIndex" : 0
 				}
 			]
