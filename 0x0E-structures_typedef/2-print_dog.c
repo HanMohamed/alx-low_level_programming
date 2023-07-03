@@ -14,6 +14,7 @@ void print_dog(struct dog *d)
 {
 	char *str;
 
+	if (d != NULL)
 	{
 		if (d->name == NULL)
 			str = "(nil)";
