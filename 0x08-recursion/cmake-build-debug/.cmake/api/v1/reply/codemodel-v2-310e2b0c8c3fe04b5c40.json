@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -77,6 +79,13 @@
 					"id" : "4-pow::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-4-pow-Debug-8c4e4285ae8258670578.json",
 					"name" : "4-pow",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "5-sqrt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-5-sqrt-Debug-bee6b4a249349afc3f51.json",
+					"name" : "5-sqrt",
 					"projectIndex" : 0
 				}
 			]

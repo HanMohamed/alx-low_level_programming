@@ -234,6 +234,43 @@ build 4-pow: C_EXECUTABLE_LINKER__4-pow_Debug CMakeFiles/4-pow.dir/4-main.c.o CM
   TARGET_FILE = 4-pow
   TARGET_PDB = 4-pow.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 5-sqrt
+
+
+#############################################
+# Order-only phony target for 5-sqrt
+
+build cmake_object_order_depends_target_5-sqrt: phony || CMakeFiles/5-sqrt.dir
+
+build CMakeFiles/5-sqrt.dir/5-sqrt_recursion.c.o: C_COMPILER__5-sqrt_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/5-sqrt_recursion.c || cmake_object_order_depends_target_5-sqrt
+  DEP_FILE = CMakeFiles/5-sqrt.dir/5-sqrt_recursion.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-sqrt.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-sqrt.dir
+
+build CMakeFiles/5-sqrt.dir/5-main.c.o: C_COMPILER__5-sqrt_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/5-main.c || cmake_object_order_depends_target_5-sqrt
+  DEP_FILE = CMakeFiles/5-sqrt.dir/5-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-sqrt.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-sqrt.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5-sqrt
+
+
+#############################################
+# Link the executable 5-sqrt
+
+build 5-sqrt: C_EXECUTABLE_LINKER__5-sqrt_Debug CMakeFiles/5-sqrt.dir/5-sqrt_recursion.c.o CMakeFiles/5-sqrt.dir/5-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/5-sqrt.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 5-sqrt
+  TARGET_PDB = 5-sqrt.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -268,7 +305,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug
 
-build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion 3-factorial 4-pow
+build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion 3-factorial 4-pow 5-sqrt
 
 # =============================================================================
 # Built-in targets
