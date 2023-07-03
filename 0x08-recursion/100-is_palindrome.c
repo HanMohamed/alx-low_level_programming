@@ -19,6 +19,12 @@ int is_pali(char *s, int start, int end)
 	return (is_pali(s, ++start, --end));
 }
 
+int get_end(int end, char *s)
+{
+	if (s[end] == "")
+		return (end);
+	return (get_end(++end, s));
+}
 /**
  * is_palindrome - check if string is a palindrome
  * @s: a pointer to a string
@@ -34,9 +40,8 @@ int is_palindrome(char *s)
 	if (s == NULL)
 		return (1);
 
-	start = end = 0;
-	while (s[end])
-		end++;
+	start = 0;
+	end = get_end(0, s);
 
 	end--;
 	return (is_pali(s, start, end));
