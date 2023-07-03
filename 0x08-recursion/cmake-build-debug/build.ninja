@@ -64,6 +64,12 @@ build CMakeFiles/0-puts_recursion.dir/_putchar.c.o: C_COMPILER__0-puts_recursion
   OBJECT_DIR = CMakeFiles/0-puts_recursion.dir
   OBJECT_FILE_DIR = CMakeFiles/0-puts_recursion.dir
 
+build CMakeFiles/0-puts_recursion.dir/6-main.c.o: C_COMPILER__0-puts_recursion_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/6-main.c || cmake_object_order_depends_target_0-puts_recursion
+  DEP_FILE = CMakeFiles/0-puts_recursion.dir/6-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0-puts_recursion.dir
+  OBJECT_FILE_DIR = CMakeFiles/0-puts_recursion.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 0-puts_recursion
@@ -72,7 +78,7 @@ build CMakeFiles/0-puts_recursion.dir/_putchar.c.o: C_COMPILER__0-puts_recursion
 #############################################
 # Link the executable 0-puts_recursion
 
-build 0-puts_recursion: C_EXECUTABLE_LINKER__0-puts_recursion_Debug CMakeFiles/0-puts_recursion.dir/0-main.c.o CMakeFiles/0-puts_recursion.dir/0-puts_recursion.c.o CMakeFiles/0-puts_recursion.dir/_putchar.c.o
+build 0-puts_recursion: C_EXECUTABLE_LINKER__0-puts_recursion_Debug CMakeFiles/0-puts_recursion.dir/0-main.c.o CMakeFiles/0-puts_recursion.dir/0-puts_recursion.c.o CMakeFiles/0-puts_recursion.dir/_putchar.c.o CMakeFiles/0-puts_recursion.dir/6-main.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/0-puts_recursion.dir
   POST_BUILD = :
@@ -271,6 +277,43 @@ build 5-sqrt: C_EXECUTABLE_LINKER__5-sqrt_Debug CMakeFiles/5-sqrt.dir/5-sqrt_rec
   TARGET_FILE = 5-sqrt
   TARGET_PDB = 5-sqrt.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 6-prime
+
+
+#############################################
+# Order-only phony target for 6-prime
+
+build cmake_object_order_depends_target_6-prime: phony || CMakeFiles/6-prime.dir
+
+build CMakeFiles/6-prime.dir/6-main.c.o: C_COMPILER__6-prime_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/6-main.c || cmake_object_order_depends_target_6-prime
+  DEP_FILE = CMakeFiles/6-prime.dir/6-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/6-prime.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-prime.dir
+
+build CMakeFiles/6-prime.dir/6-is_prime_number.c.o: C_COMPILER__6-prime_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/6-is_prime_number.c || cmake_object_order_depends_target_6-prime
+  DEP_FILE = CMakeFiles/6-prime.dir/6-is_prime_number.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/6-prime.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-prime.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6-prime
+
+
+#############################################
+# Link the executable 6-prime
+
+build 6-prime: C_EXECUTABLE_LINKER__6-prime_Debug CMakeFiles/6-prime.dir/6-main.c.o CMakeFiles/6-prime.dir/6-is_prime_number.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/6-prime.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 6-prime
+  TARGET_PDB = 6-prime.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -305,7 +348,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug
 
-build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion 3-factorial 4-pow 5-sqrt
+build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion 3-factorial 4-pow 5-sqrt 6-prime
 
 # =============================================================================
 # Built-in targets
