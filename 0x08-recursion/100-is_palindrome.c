@@ -19,9 +19,15 @@ int is_pali(char *s, int start, int end)
 	return (is_pali(s, ++start, --end));
 }
 
+/**
+ * get_end - get end of string
+ * @end: end of string
+ * @s: a pointer to string
+ * Return: end of string
+ */
 int get_end(int end, char *s)
 {
-	if (s[end] == "")
+	if (s[end] == '\0')
 		return (end);
 	return (get_end(++end, s));
 }
