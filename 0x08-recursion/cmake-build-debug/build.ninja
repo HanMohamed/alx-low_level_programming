@@ -314,6 +314,43 @@ build 6-prime: C_EXECUTABLE_LINKER__6-prime_Debug CMakeFiles/6-prime.dir/6-main.
   TARGET_FILE = 6-prime
   TARGET_PDB = 6-prime.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 100-is_pali
+
+
+#############################################
+# Order-only phony target for 100-is_pali
+
+build cmake_object_order_depends_target_100-is_pali: phony || CMakeFiles/100-is_pali.dir
+
+build CMakeFiles/100-is_pali.dir/100-is_palindrome.c.o: C_COMPILER__100-is_pali_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/100-is_palindrome.c || cmake_object_order_depends_target_100-is_pali
+  DEP_FILE = CMakeFiles/100-is_pali.dir/100-is_palindrome.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/100-is_pali.dir
+  OBJECT_FILE_DIR = CMakeFiles/100-is_pali.dir
+
+build CMakeFiles/100-is_pali.dir/100-main.c.o: C_COMPILER__100-is_pali_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/100-main.c || cmake_object_order_depends_target_100-is_pali
+  DEP_FILE = CMakeFiles/100-is_pali.dir/100-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/100-is_pali.dir
+  OBJECT_FILE_DIR = CMakeFiles/100-is_pali.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 100-is_pali
+
+
+#############################################
+# Link the executable 100-is_pali
+
+build 100-is_pali: C_EXECUTABLE_LINKER__100-is_pali_Debug CMakeFiles/100-is_pali.dir/100-is_palindrome.c.o CMakeFiles/100-is_pali.dir/100-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/100-is_pali.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 100-is_pali
+  TARGET_PDB = 100-is_pali.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -348,7 +385,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug
 
-build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion 3-factorial 4-pow 5-sqrt 6-prime
+build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion 3-factorial 4-pow 5-sqrt 6-prime 100-is_pali
 
 # =============================================================================
 # Built-in targets
