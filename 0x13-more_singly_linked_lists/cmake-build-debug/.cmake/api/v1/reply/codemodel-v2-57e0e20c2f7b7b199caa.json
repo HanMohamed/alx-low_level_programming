@@ -1,0 +1,177 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "0x13_more_singly_linked_lists",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "0x13_more_singly_linked_lists::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-0x13_more_singly_linked_lists-Debug-7ac5f5889d22ee777568.json",
+					"name" : "0x13_more_singly_linked_lists",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1-listint_len::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-listint_len-Debug-f174a489b8ffb913f76d.json",
+					"name" : "1-listint_len",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "10-delete_nodeint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-10-delete_nodeint-Debug-bd875cc6bf1726415e3b.json",
+					"name" : "10-delete_nodeint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "100-reverse_listint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-100-reverse_listint-Debug-4797f78862e47be2c42b.json",
+					"name" : "100-reverse_listint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "101-print_listint_safe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-101-print_listint_safe-Debug-7f138488bd43728a42f9.json",
+					"name" : "101-print_listint_safe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "102-free_listint_safe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-102-free_listint_safe-Debug-4174162c6b8cc3d4957f.json",
+					"name" : "102-free_listint_safe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "3-add_nodeint_end::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-3-add_nodeint_end-Debug-4caaf34dfa3663f2952d.json",
+					"name" : "3-add_nodeint_end",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4-free_listint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4-free_listint-Debug-ed61de7bb93ade6cff63.json",
+					"name" : "4-free_listint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "5-free_listint2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-5-free_listint2-Debug-a2c9fae2ca66d1d63ab2.json",
+					"name" : "5-free_listint2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "6-pop_listint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-6-pop_listint-Debug-49ef6886375bbd8f4065.json",
+					"name" : "6-pop_listint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "7-get_nodeint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-7-get_nodeint-Debug-4f72a0d2ca10456a9c7f.json",
+					"name" : "7-get_nodeint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "8-sum_listint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-8-sum_listint-Debug-6d5a1bbdb0f306d2bc4b.json",
+					"name" : "8-sum_listint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "9-insert_nodeint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-9-insert_nodeint-Debug-1b152787b140f8208f8e.json",
+					"name" : "9-insert_nodeint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "add_nodeint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-add_nodeint-Debug-71989d0d382d891c3d0f.json",
+					"name" : "add_nodeint",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug",
+		"source" : "/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

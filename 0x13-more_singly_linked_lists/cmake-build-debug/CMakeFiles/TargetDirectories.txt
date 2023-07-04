@@ -1,0 +1,16 @@
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/0x13_more_singly_linked_lists.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/1-listint_len.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/add_nodeint.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/3-add_nodeint_end.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/4-free_listint.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/5-free_listint2.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/6-pop_listint.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/7-get_nodeint.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/8-sum_listint.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/9-insert_nodeint.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/10-delete_nodeint.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/100-reverse_listint.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/101-print_listint_safe.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/102-free_listint_safe.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/CMakeFiles/rebuild_cache.dir

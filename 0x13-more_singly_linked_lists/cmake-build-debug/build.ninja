@@ -1,0 +1,620 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: 0x13_more_singly_linked_lists
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target 0x13_more_singly_linked_lists
+
+
+#############################################
+# Order-only phony target for 0x13_more_singly_linked_lists
+
+build cmake_object_order_depends_target_0x13_more_singly_linked_lists: phony || CMakeFiles/0x13_more_singly_linked_lists.dir
+
+build CMakeFiles/0x13_more_singly_linked_lists.dir/0-main.c.o: C_COMPILER__0x13_more_singly_linked_lists_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/0-main.c || cmake_object_order_depends_target_0x13_more_singly_linked_lists
+  DEP_FILE = CMakeFiles/0x13_more_singly_linked_lists.dir/0-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x13_more_singly_linked_lists.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x13_more_singly_linked_lists.dir
+
+build CMakeFiles/0x13_more_singly_linked_lists.dir/0-print_listint.c.o: C_COMPILER__0x13_more_singly_linked_lists_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/0-print_listint.c || cmake_object_order_depends_target_0x13_more_singly_linked_lists
+  DEP_FILE = CMakeFiles/0x13_more_singly_linked_lists.dir/0-print_listint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/0x13_more_singly_linked_lists.dir
+  OBJECT_FILE_DIR = CMakeFiles/0x13_more_singly_linked_lists.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 0x13_more_singly_linked_lists
+
+
+#############################################
+# Link the executable 0x13_more_singly_linked_lists
+
+build 0x13_more_singly_linked_lists: C_EXECUTABLE_LINKER__0x13_more_singly_linked_lists_Debug CMakeFiles/0x13_more_singly_linked_lists.dir/0-main.c.o CMakeFiles/0x13_more_singly_linked_lists.dir/0-print_listint.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/0x13_more_singly_linked_lists.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 0x13_more_singly_linked_lists
+  TARGET_PDB = 0x13_more_singly_linked_lists.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1-listint_len
+
+
+#############################################
+# Order-only phony target for 1-listint_len
+
+build cmake_object_order_depends_target_1-listint_len: phony || CMakeFiles/1-listint_len.dir
+
+build CMakeFiles/1-listint_len.dir/1-main.c.o: C_COMPILER__1-listint_len_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/1-main.c || cmake_object_order_depends_target_1-listint_len
+  DEP_FILE = CMakeFiles/1-listint_len.dir/1-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/1-listint_len.dir
+  OBJECT_FILE_DIR = CMakeFiles/1-listint_len.dir
+
+build CMakeFiles/1-listint_len.dir/1-listint_len.c.o: C_COMPILER__1-listint_len_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/1-listint_len.c || cmake_object_order_depends_target_1-listint_len
+  DEP_FILE = CMakeFiles/1-listint_len.dir/1-listint_len.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/1-listint_len.dir
+  OBJECT_FILE_DIR = CMakeFiles/1-listint_len.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1-listint_len
+
+
+#############################################
+# Link the executable 1-listint_len
+
+build 1-listint_len: C_EXECUTABLE_LINKER__1-listint_len_Debug CMakeFiles/1-listint_len.dir/1-main.c.o CMakeFiles/1-listint_len.dir/1-listint_len.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/1-listint_len.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1-listint_len
+  TARGET_PDB = 1-listint_len.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target add_nodeint
+
+
+#############################################
+# Order-only phony target for add_nodeint
+
+build cmake_object_order_depends_target_add_nodeint: phony || CMakeFiles/add_nodeint.dir
+
+build CMakeFiles/add_nodeint.dir/2-add_nodeint.c.o: C_COMPILER__add_nodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/2-add_nodeint.c || cmake_object_order_depends_target_add_nodeint
+  DEP_FILE = CMakeFiles/add_nodeint.dir/2-add_nodeint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/add_nodeint.dir
+  OBJECT_FILE_DIR = CMakeFiles/add_nodeint.dir
+
+build CMakeFiles/add_nodeint.dir/2-main.c.o: C_COMPILER__add_nodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/2-main.c || cmake_object_order_depends_target_add_nodeint
+  DEP_FILE = CMakeFiles/add_nodeint.dir/2-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/add_nodeint.dir
+  OBJECT_FILE_DIR = CMakeFiles/add_nodeint.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target add_nodeint
+
+
+#############################################
+# Link the executable add_nodeint
+
+build add_nodeint: C_EXECUTABLE_LINKER__add_nodeint_Debug CMakeFiles/add_nodeint.dir/2-add_nodeint.c.o CMakeFiles/add_nodeint.dir/2-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/add_nodeint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = add_nodeint
+  TARGET_PDB = add_nodeint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-add_nodeint_end
+
+
+#############################################
+# Order-only phony target for 3-add_nodeint_end
+
+build cmake_object_order_depends_target_3-add_nodeint_end: phony || CMakeFiles/3-add_nodeint_end.dir
+
+build CMakeFiles/3-add_nodeint_end.dir/3-add_nodeint_end.c.o: C_COMPILER__3-add_nodeint_end_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/3-add_nodeint_end.c || cmake_object_order_depends_target_3-add_nodeint_end
+  DEP_FILE = CMakeFiles/3-add_nodeint_end.dir/3-add_nodeint_end.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-add_nodeint_end.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-add_nodeint_end.dir
+
+build CMakeFiles/3-add_nodeint_end.dir/3-main.c.o: C_COMPILER__3-add_nodeint_end_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/3-main.c || cmake_object_order_depends_target_3-add_nodeint_end
+  DEP_FILE = CMakeFiles/3-add_nodeint_end.dir/3-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-add_nodeint_end.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-add_nodeint_end.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-add_nodeint_end
+
+
+#############################################
+# Link the executable 3-add_nodeint_end
+
+build 3-add_nodeint_end: C_EXECUTABLE_LINKER__3-add_nodeint_end_Debug CMakeFiles/3-add_nodeint_end.dir/3-add_nodeint_end.c.o CMakeFiles/3-add_nodeint_end.dir/3-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/3-add_nodeint_end.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3-add_nodeint_end
+  TARGET_PDB = 3-add_nodeint_end.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-free_listint
+
+
+#############################################
+# Order-only phony target for 4-free_listint
+
+build cmake_object_order_depends_target_4-free_listint: phony || CMakeFiles/4-free_listint.dir
+
+build CMakeFiles/4-free_listint.dir/4-free_listint.c.o: C_COMPILER__4-free_listint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/4-free_listint.c || cmake_object_order_depends_target_4-free_listint
+  DEP_FILE = CMakeFiles/4-free_listint.dir/4-free_listint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-free_listint.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-free_listint.dir
+
+build CMakeFiles/4-free_listint.dir/4-main.c.o: C_COMPILER__4-free_listint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/4-main.c || cmake_object_order_depends_target_4-free_listint
+  DEP_FILE = CMakeFiles/4-free_listint.dir/4-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-free_listint.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-free_listint.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-free_listint
+
+
+#############################################
+# Link the executable 4-free_listint
+
+build 4-free_listint: C_EXECUTABLE_LINKER__4-free_listint_Debug CMakeFiles/4-free_listint.dir/4-free_listint.c.o CMakeFiles/4-free_listint.dir/4-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/4-free_listint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4-free_listint
+  TARGET_PDB = 4-free_listint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 5-free_listint2
+
+
+#############################################
+# Order-only phony target for 5-free_listint2
+
+build cmake_object_order_depends_target_5-free_listint2: phony || CMakeFiles/5-free_listint2.dir
+
+build CMakeFiles/5-free_listint2.dir/5-free_listint2.c.o: C_COMPILER__5-free_listint2_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/5-free_listint2.c || cmake_object_order_depends_target_5-free_listint2
+  DEP_FILE = CMakeFiles/5-free_listint2.dir/5-free_listint2.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-free_listint2.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-free_listint2.dir
+
+build CMakeFiles/5-free_listint2.dir/5-main.c.o: C_COMPILER__5-free_listint2_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/5-main.c || cmake_object_order_depends_target_5-free_listint2
+  DEP_FILE = CMakeFiles/5-free_listint2.dir/5-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-free_listint2.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-free_listint2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5-free_listint2
+
+
+#############################################
+# Link the executable 5-free_listint2
+
+build 5-free_listint2: C_EXECUTABLE_LINKER__5-free_listint2_Debug CMakeFiles/5-free_listint2.dir/5-free_listint2.c.o CMakeFiles/5-free_listint2.dir/5-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/5-free_listint2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 5-free_listint2
+  TARGET_PDB = 5-free_listint2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 6-pop_listint
+
+
+#############################################
+# Order-only phony target for 6-pop_listint
+
+build cmake_object_order_depends_target_6-pop_listint: phony || CMakeFiles/6-pop_listint.dir
+
+build CMakeFiles/6-pop_listint.dir/6-pop_listint.c.o: C_COMPILER__6-pop_listint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/6-pop_listint.c || cmake_object_order_depends_target_6-pop_listint
+  DEP_FILE = CMakeFiles/6-pop_listint.dir/6-pop_listint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/6-pop_listint.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-pop_listint.dir
+
+build CMakeFiles/6-pop_listint.dir/6-main.c.o: C_COMPILER__6-pop_listint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/6-main.c || cmake_object_order_depends_target_6-pop_listint
+  DEP_FILE = CMakeFiles/6-pop_listint.dir/6-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/6-pop_listint.dir
+  OBJECT_FILE_DIR = CMakeFiles/6-pop_listint.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6-pop_listint
+
+
+#############################################
+# Link the executable 6-pop_listint
+
+build 6-pop_listint: C_EXECUTABLE_LINKER__6-pop_listint_Debug CMakeFiles/6-pop_listint.dir/6-pop_listint.c.o CMakeFiles/6-pop_listint.dir/6-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/6-pop_listint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 6-pop_listint
+  TARGET_PDB = 6-pop_listint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7-get_nodeint
+
+
+#############################################
+# Order-only phony target for 7-get_nodeint
+
+build cmake_object_order_depends_target_7-get_nodeint: phony || CMakeFiles/7-get_nodeint.dir
+
+build CMakeFiles/7-get_nodeint.dir/7-main.c.o: C_COMPILER__7-get_nodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/7-main.c || cmake_object_order_depends_target_7-get_nodeint
+  DEP_FILE = CMakeFiles/7-get_nodeint.dir/7-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/7-get_nodeint.dir
+  OBJECT_FILE_DIR = CMakeFiles/7-get_nodeint.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 7-get_nodeint
+
+
+#############################################
+# Link the executable 7-get_nodeint
+
+build 7-get_nodeint: C_EXECUTABLE_LINKER__7-get_nodeint_Debug CMakeFiles/7-get_nodeint.dir/7-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/7-get_nodeint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 7-get_nodeint
+  TARGET_PDB = 7-get_nodeint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8-sum_listint
+
+
+#############################################
+# Order-only phony target for 8-sum_listint
+
+build cmake_object_order_depends_target_8-sum_listint: phony || CMakeFiles/8-sum_listint.dir
+
+build CMakeFiles/8-sum_listint.dir/8-sum_listint.c.o: C_COMPILER__8-sum_listint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/8-sum_listint.c || cmake_object_order_depends_target_8-sum_listint
+  DEP_FILE = CMakeFiles/8-sum_listint.dir/8-sum_listint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/8-sum_listint.dir
+  OBJECT_FILE_DIR = CMakeFiles/8-sum_listint.dir
+
+build CMakeFiles/8-sum_listint.dir/8-main.c.o: C_COMPILER__8-sum_listint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/8-main.c || cmake_object_order_depends_target_8-sum_listint
+  DEP_FILE = CMakeFiles/8-sum_listint.dir/8-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/8-sum_listint.dir
+  OBJECT_FILE_DIR = CMakeFiles/8-sum_listint.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8-sum_listint
+
+
+#############################################
+# Link the executable 8-sum_listint
+
+build 8-sum_listint: C_EXECUTABLE_LINKER__8-sum_listint_Debug CMakeFiles/8-sum_listint.dir/8-sum_listint.c.o CMakeFiles/8-sum_listint.dir/8-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/8-sum_listint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 8-sum_listint
+  TARGET_PDB = 8-sum_listint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 9-insert_nodeint
+
+
+#############################################
+# Order-only phony target for 9-insert_nodeint
+
+build cmake_object_order_depends_target_9-insert_nodeint: phony || CMakeFiles/9-insert_nodeint.dir
+
+build CMakeFiles/9-insert_nodeint.dir/9-insert_nodeint.c.o: C_COMPILER__9-insert_nodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/9-insert_nodeint.c || cmake_object_order_depends_target_9-insert_nodeint
+  DEP_FILE = CMakeFiles/9-insert_nodeint.dir/9-insert_nodeint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/9-insert_nodeint.dir
+  OBJECT_FILE_DIR = CMakeFiles/9-insert_nodeint.dir
+
+build CMakeFiles/9-insert_nodeint.dir/9-main.c.o: C_COMPILER__9-insert_nodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/9-main.c || cmake_object_order_depends_target_9-insert_nodeint
+  DEP_FILE = CMakeFiles/9-insert_nodeint.dir/9-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/9-insert_nodeint.dir
+  OBJECT_FILE_DIR = CMakeFiles/9-insert_nodeint.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9-insert_nodeint
+
+
+#############################################
+# Link the executable 9-insert_nodeint
+
+build 9-insert_nodeint: C_EXECUTABLE_LINKER__9-insert_nodeint_Debug CMakeFiles/9-insert_nodeint.dir/9-insert_nodeint.c.o CMakeFiles/9-insert_nodeint.dir/9-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/9-insert_nodeint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 9-insert_nodeint
+  TARGET_PDB = 9-insert_nodeint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10-delete_nodeint
+
+
+#############################################
+# Order-only phony target for 10-delete_nodeint
+
+build cmake_object_order_depends_target_10-delete_nodeint: phony || CMakeFiles/10-delete_nodeint.dir
+
+build CMakeFiles/10-delete_nodeint.dir/10-delete_nodeint.c.o: C_COMPILER__10-delete_nodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/10-delete_nodeint.c || cmake_object_order_depends_target_10-delete_nodeint
+  DEP_FILE = CMakeFiles/10-delete_nodeint.dir/10-delete_nodeint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/10-delete_nodeint.dir
+  OBJECT_FILE_DIR = CMakeFiles/10-delete_nodeint.dir
+
+build CMakeFiles/10-delete_nodeint.dir/10-main.c.o: C_COMPILER__10-delete_nodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/10-main.c || cmake_object_order_depends_target_10-delete_nodeint
+  DEP_FILE = CMakeFiles/10-delete_nodeint.dir/10-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/10-delete_nodeint.dir
+  OBJECT_FILE_DIR = CMakeFiles/10-delete_nodeint.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10-delete_nodeint
+
+
+#############################################
+# Link the executable 10-delete_nodeint
+
+build 10-delete_nodeint: C_EXECUTABLE_LINKER__10-delete_nodeint_Debug CMakeFiles/10-delete_nodeint.dir/10-delete_nodeint.c.o CMakeFiles/10-delete_nodeint.dir/10-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/10-delete_nodeint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10-delete_nodeint
+  TARGET_PDB = 10-delete_nodeint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 100-reverse_listint
+
+
+#############################################
+# Order-only phony target for 100-reverse_listint
+
+build cmake_object_order_depends_target_100-reverse_listint: phony || CMakeFiles/100-reverse_listint.dir
+
+build CMakeFiles/100-reverse_listint.dir/100-reverse_listint.c.o: C_COMPILER__100-reverse_listint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/100-reverse_listint.c || cmake_object_order_depends_target_100-reverse_listint
+  DEP_FILE = CMakeFiles/100-reverse_listint.dir/100-reverse_listint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/100-reverse_listint.dir
+  OBJECT_FILE_DIR = CMakeFiles/100-reverse_listint.dir
+
+build CMakeFiles/100-reverse_listint.dir/100-main.c.o: C_COMPILER__100-reverse_listint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/100-main.c || cmake_object_order_depends_target_100-reverse_listint
+  DEP_FILE = CMakeFiles/100-reverse_listint.dir/100-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/100-reverse_listint.dir
+  OBJECT_FILE_DIR = CMakeFiles/100-reverse_listint.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 100-reverse_listint
+
+
+#############################################
+# Link the executable 100-reverse_listint
+
+build 100-reverse_listint: C_EXECUTABLE_LINKER__100-reverse_listint_Debug CMakeFiles/100-reverse_listint.dir/100-reverse_listint.c.o CMakeFiles/100-reverse_listint.dir/100-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/100-reverse_listint.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 100-reverse_listint
+  TARGET_PDB = 100-reverse_listint.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 101-print_listint_safe
+
+
+#############################################
+# Order-only phony target for 101-print_listint_safe
+
+build cmake_object_order_depends_target_101-print_listint_safe: phony || CMakeFiles/101-print_listint_safe.dir
+
+build CMakeFiles/101-print_listint_safe.dir/101-print_listint_safe.c.o: C_COMPILER__101-print_listint_safe_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/101-print_listint_safe.c || cmake_object_order_depends_target_101-print_listint_safe
+  DEP_FILE = CMakeFiles/101-print_listint_safe.dir/101-print_listint_safe.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/101-print_listint_safe.dir
+  OBJECT_FILE_DIR = CMakeFiles/101-print_listint_safe.dir
+
+build CMakeFiles/101-print_listint_safe.dir/101-main.c.o: C_COMPILER__101-print_listint_safe_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/101-main.c || cmake_object_order_depends_target_101-print_listint_safe
+  DEP_FILE = CMakeFiles/101-print_listint_safe.dir/101-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/101-print_listint_safe.dir
+  OBJECT_FILE_DIR = CMakeFiles/101-print_listint_safe.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 101-print_listint_safe
+
+
+#############################################
+# Link the executable 101-print_listint_safe
+
+build 101-print_listint_safe: C_EXECUTABLE_LINKER__101-print_listint_safe_Debug CMakeFiles/101-print_listint_safe.dir/101-print_listint_safe.c.o CMakeFiles/101-print_listint_safe.dir/101-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/101-print_listint_safe.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 101-print_listint_safe
+  TARGET_PDB = 101-print_listint_safe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 102-free_listint_safe
+
+
+#############################################
+# Order-only phony target for 102-free_listint_safe
+
+build cmake_object_order_depends_target_102-free_listint_safe: phony || CMakeFiles/102-free_listint_safe.dir
+
+build CMakeFiles/102-free_listint_safe.dir/102-free_listint_safe.c.o: C_COMPILER__102-free_listint_safe_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/102-free_listint_safe.c || cmake_object_order_depends_target_102-free_listint_safe
+  DEP_FILE = CMakeFiles/102-free_listint_safe.dir/102-free_listint_safe.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/102-free_listint_safe.dir
+  OBJECT_FILE_DIR = CMakeFiles/102-free_listint_safe.dir
+
+build CMakeFiles/102-free_listint_safe.dir/102-main.c.o: C_COMPILER__102-free_listint_safe_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/102-main.c || cmake_object_order_depends_target_102-free_listint_safe
+  DEP_FILE = CMakeFiles/102-free_listint_safe.dir/102-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/102-free_listint_safe.dir
+  OBJECT_FILE_DIR = CMakeFiles/102-free_listint_safe.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 102-free_listint_safe
+
+
+#############################################
+# Link the executable 102-free_listint_safe
+
+build 102-free_listint_safe: C_EXECUTABLE_LINKER__102-free_listint_safe_Debug CMakeFiles/102-free_listint_safe.dir/102-free_listint_safe.c.o CMakeFiles/102-free_listint_safe.dir/102-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/102-free_listint_safe.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 102-free_listint_safe
+  TARGET_PDB = 102-free_listint_safe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists -B/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug
+
+build all: phony 0x13_more_singly_linked_lists 1-listint_len add_nodeint 3-add_nodeint_end 4-free_listint 5-free_listint2 6-pop_listint 7-get_nodeint 8-sum_listint 9-insert_nodeint 10-delete_nodeint 100-reverse_listint 101-print_listint_safe 102-free_listint_safe
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
