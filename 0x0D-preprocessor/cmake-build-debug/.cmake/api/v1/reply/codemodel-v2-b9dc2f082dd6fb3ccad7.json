@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "0x0D_preprocessor",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "0x0D_preprocessor::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-0x0D_preprocessor-Debug-c58dadf890c3094c2cbd.json",
 					"name" : "0x0D_preprocessor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1-pi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1-pi-Debug-69a87d3a60ddcdac1294.json",
+					"name" : "1-pi",
 					"projectIndex" : 0
 				}
 			]
