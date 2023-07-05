@@ -351,6 +351,43 @@ build 100-is_pali: C_EXECUTABLE_LINKER__100-is_pali_Debug CMakeFiles/100-is_pali
   TARGET_FILE = 100-is_pali
   TARGET_PDB = 100-is_pali.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 101-wilcmp
+
+
+#############################################
+# Order-only phony target for 101-wilcmp
+
+build cmake_object_order_depends_target_101-wilcmp: phony || CMakeFiles/101-wilcmp.dir
+
+build CMakeFiles/101-wilcmp.dir/101-wildcmp.c.o: C_COMPILER__101-wilcmp_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/101-wildcmp.c || cmake_object_order_depends_target_101-wilcmp
+  DEP_FILE = CMakeFiles/101-wilcmp.dir/101-wildcmp.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/101-wilcmp.dir
+  OBJECT_FILE_DIR = CMakeFiles/101-wilcmp.dir
+
+build CMakeFiles/101-wilcmp.dir/101-main.c.o: C_COMPILER__101-wilcmp_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/101-main.c || cmake_object_order_depends_target_101-wilcmp
+  DEP_FILE = CMakeFiles/101-wilcmp.dir/101-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/101-wilcmp.dir
+  OBJECT_FILE_DIR = CMakeFiles/101-wilcmp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 101-wilcmp
+
+
+#############################################
+# Link the executable 101-wilcmp
+
+build 101-wilcmp: C_EXECUTABLE_LINKER__101-wilcmp_Debug CMakeFiles/101-wilcmp.dir/101-wildcmp.c.o CMakeFiles/101-wilcmp.dir/101-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/101-wilcmp.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 101-wilcmp
+  TARGET_PDB = 101-wilcmp.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -385,7 +422,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug
 
-build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion 3-factorial 4-pow 5-sqrt 6-prime 100-is_pali
+build all: phony 0-puts_recursion 1-print_rev_recursion 2-strlen_recursion 3-factorial 4-pow 5-sqrt 6-prime 100-is_pali 101-wilcmp
 
 # =============================================================================
 # Built-in targets

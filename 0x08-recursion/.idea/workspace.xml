@@ -13,6 +13,7 @@
     <generated>
       <config projectName="0x08_recursion" targetName="5-sqrt" />
       <config projectName="0x08_recursion" targetName="100-is_pali" />
+      <config projectName="0x08_recursion" targetName="101-wilcmp" />
       <config projectName="0x08_recursion" targetName="0-puts_recursion" />
       <config projectName="0x08_recursion" targetName="4-pow" />
       <config projectName="0x08_recursion" targetName="6-prime" />
@@ -31,6 +32,17 @@
   <component name="ChangeListManager">
     <list default="true" id="c9439bcb-5b58-4a85-8ba0-867f2c080382" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9c95d1956a9cf214ca96.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-07-03T22-05-53-0530.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/100-is_pali" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/100-is_pali" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/100-is_pali.dir/100-is_palindrome.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/100-is_pali.dir/100-is_palindrome.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +94,7 @@
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.100-is_pali">
+  <component name="RunManager" selected="CMake Application.101-wilcmp">
     <configuration name="0-puts_recursion" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="0x08_recursion" TARGET_NAME="0-puts_recursion" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="0x08_recursion" RUN_TARGET_NAME="0-puts_recursion">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -94,6 +106,11 @@
       </method>
     </configuration>
     <configuration name="100-is_pali" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="0x08_recursion" TARGET_NAME="100-is_pali" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="0x08_recursion" RUN_TARGET_NAME="100-is_pali">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="101-wilcmp" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="0x08_recursion" TARGET_NAME="101-wilcmp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="0x08_recursion" RUN_TARGET_NAME="101-wilcmp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -132,6 +149,7 @@
       <item itemvalue="CMake Application.0-puts_recursion" />
       <item itemvalue="CMake Application.1-print_rev_recursion" />
       <item itemvalue="CMake Application.100-is_pali" />
+      <item itemvalue="CMake Application.101-wilcmp" />
       <item itemvalue="CMake Application.2-strlen_recursion" />
       <item itemvalue="CMake Application.3-factorial" />
       <item itemvalue="CMake Application.4-pow" />
@@ -150,7 +168,7 @@
       <workItem from="1686338476722" duration="63000" />
       <workItem from="1686338549276" duration="3398000" />
       <workItem from="1686346581465" duration="4706000" />
-      <workItem from="1688418547629" duration="7862000" />
+      <workItem from="1688418547629" duration="13850000" />
     </task>
     <servers />
   </component>
@@ -170,7 +188,17 @@
           <line>12</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/101-main.c</url>
+          <line>30</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="*s @ 12" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

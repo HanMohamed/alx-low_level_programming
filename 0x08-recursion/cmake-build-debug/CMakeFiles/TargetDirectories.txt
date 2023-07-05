@@ -6,5 +6,6 @@
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug/CMakeFiles/5-sqrt.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug/CMakeFiles/6-prime.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug/CMakeFiles/100-is_pali.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug/CMakeFiles/101-wilcmp.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x08-recursion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
