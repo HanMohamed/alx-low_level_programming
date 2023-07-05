@@ -36,6 +36,6 @@ int main(void)
     print_listint_safe(head);
     free_listint_safe(&head2);
     free_listint_safe(&head);
-    printf("%p, %p\n", (void *)head2, (void *)head);
+ //   printf("%p, %p\n", (void *)head2, (void *)head);
     return (0);
 }

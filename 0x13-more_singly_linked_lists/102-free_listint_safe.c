@@ -1,8 +1,10 @@
 #include "lists.h"
 
 /**
- * free_list_safe - frees a list
+ * free_listint_safe - frees a list
  * @head: head of the linked list.
+ *
+ * Return: the size of the list that was free’d
  */
 size_t free_listint_safe(listint_t **head)
 {
@@ -11,7 +13,7 @@ size_t free_listint_safe(listint_t **head)
 
 	if (*head == NULL)
 		return (0);
-	while (*head)
+	while (*head && (*head)->next)
 	{
 		*head = (*head)->next;
 		free(p);
