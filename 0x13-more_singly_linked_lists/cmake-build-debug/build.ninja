@@ -484,6 +484,12 @@ build 100-reverse_listint: C_EXECUTABLE_LINKER__100-reverse_listint_Debug CMakeF
 
 build cmake_object_order_depends_target_101-print_listint_safe: phony || CMakeFiles/101-print_listint_safe.dir
 
+build CMakeFiles/101-print_listint_safe.dir/2-add_nodeint.c.o: C_COMPILER__101-print_listint_safe_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/2-add_nodeint.c || cmake_object_order_depends_target_101-print_listint_safe
+  DEP_FILE = CMakeFiles/101-print_listint_safe.dir/2-add_nodeint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/101-print_listint_safe.dir
+  OBJECT_FILE_DIR = CMakeFiles/101-print_listint_safe.dir
+
 build CMakeFiles/101-print_listint_safe.dir/101-print_listint_safe.c.o: C_COMPILER__101-print_listint_safe_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/101-print_listint_safe.c || cmake_object_order_depends_target_101-print_listint_safe
   DEP_FILE = CMakeFiles/101-print_listint_safe.dir/101-print_listint_safe.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
@@ -504,7 +510,7 @@ build CMakeFiles/101-print_listint_safe.dir/101-main.c.o: C_COMPILER__101-print_
 #############################################
 # Link the executable 101-print_listint_safe
 
-build 101-print_listint_safe: C_EXECUTABLE_LINKER__101-print_listint_safe_Debug CMakeFiles/101-print_listint_safe.dir/101-print_listint_safe.c.o CMakeFiles/101-print_listint_safe.dir/101-main.c.o
+build 101-print_listint_safe: C_EXECUTABLE_LINKER__101-print_listint_safe_Debug CMakeFiles/101-print_listint_safe.dir/2-add_nodeint.c.o CMakeFiles/101-print_listint_safe.dir/101-print_listint_safe.c.o CMakeFiles/101-print_listint_safe.dir/101-main.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/101-print_listint_safe.dir
   POST_BUILD = :
