@@ -12,6 +12,7 @@
 listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *fast, *slow;
+	int is_circle;
 
 	if (!head || !head->next)
 	return (NULL);
@@ -19,13 +20,19 @@ listint_t *find_listint_loop(listint_t *head)
 	slow = head;
 	fast = head->next->next;
 
-	while (fast != slow && fast && slow)
+	is_circle = 0;
+	while (fast && slow && fast->next)
 	{
 		slow = slow->next;
-		if (!fast->next)
-			return (NULL);
 		fast = fast->next->next;
+		if (slow == fast)
+		{
+			is_circle = 1;
+			break;
+		}
 	}
+	if (is_circle == 0)
+		return (NULL);
 
 	fast = head;
 	while (fast != slow)
