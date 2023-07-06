@@ -567,6 +567,61 @@ build 102-free_listint_safe: C_EXECUTABLE_LINKER__102-free_listint_safe_Debug CM
   TARGET_FILE = 102-free_listint_safe
   TARGET_PDB = 102-free_listint_safe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 103-find_loop
+
+
+#############################################
+# Order-only phony target for 103-find_loop
+
+build cmake_object_order_depends_target_103-find_loop: phony || CMakeFiles/103-find_loop.dir
+
+build CMakeFiles/103-find_loop.dir/2-add_nodeint.c.o: C_COMPILER__103-find_loop_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/2-add_nodeint.c || cmake_object_order_depends_target_103-find_loop
+  DEP_FILE = CMakeFiles/103-find_loop.dir/2-add_nodeint.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/103-find_loop.dir
+  OBJECT_FILE_DIR = CMakeFiles/103-find_loop.dir
+
+build CMakeFiles/103-find_loop.dir/101-print_listint_safe.c.o: C_COMPILER__103-find_loop_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/101-print_listint_safe.c || cmake_object_order_depends_target_103-find_loop
+  DEP_FILE = CMakeFiles/103-find_loop.dir/101-print_listint_safe.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/103-find_loop.dir
+  OBJECT_FILE_DIR = CMakeFiles/103-find_loop.dir
+
+build CMakeFiles/103-find_loop.dir/102-free_listint_safe.c.o: C_COMPILER__103-find_loop_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/102-free_listint_safe.c || cmake_object_order_depends_target_103-find_loop
+  DEP_FILE = CMakeFiles/103-find_loop.dir/102-free_listint_safe.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/103-find_loop.dir
+  OBJECT_FILE_DIR = CMakeFiles/103-find_loop.dir
+
+build CMakeFiles/103-find_loop.dir/103-main.c.o: C_COMPILER__103-find_loop_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/103-main.c || cmake_object_order_depends_target_103-find_loop
+  DEP_FILE = CMakeFiles/103-find_loop.dir/103-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/103-find_loop.dir
+  OBJECT_FILE_DIR = CMakeFiles/103-find_loop.dir
+
+build CMakeFiles/103-find_loop.dir/103-find_loop.c.o: C_COMPILER__103-find_loop_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/103-find_loop.c || cmake_object_order_depends_target_103-find_loop
+  DEP_FILE = CMakeFiles/103-find_loop.dir/103-find_loop.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/103-find_loop.dir
+  OBJECT_FILE_DIR = CMakeFiles/103-find_loop.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 103-find_loop
+
+
+#############################################
+# Link the executable 103-find_loop
+
+build 103-find_loop: C_EXECUTABLE_LINKER__103-find_loop_Debug CMakeFiles/103-find_loop.dir/2-add_nodeint.c.o CMakeFiles/103-find_loop.dir/101-print_listint_safe.c.o CMakeFiles/103-find_loop.dir/102-free_listint_safe.c.o CMakeFiles/103-find_loop.dir/103-main.c.o CMakeFiles/103-find_loop.dir/103-find_loop.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/103-find_loop.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 103-find_loop
+  TARGET_PDB = 103-find_loop.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -601,7 +656,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x13-more_singly_linked_lists/cmake-build-debug
 
-build all: phony 0x13_more_singly_linked_lists 1-listint_len add_nodeint 3-add_nodeint_end 4-free_listint 5-free_listint2 6-pop_listint 7-get_nodeint 8-sum_listint 9-insert_nodeint 10-delete_nodeint 100-reverse_listint 101-print_listint_safe 102-free_listint_safe
+build all: phony 0x13_more_singly_linked_lists 1-listint_len add_nodeint 3-add_nodeint_end 4-free_listint 5-free_listint2 6-pop_listint 7-get_nodeint 8-sum_listint 9-insert_nodeint 10-delete_nodeint 100-reverse_listint 101-print_listint_safe 102-free_listint_safe 103-find_loop
 
 # =============================================================================
 # Built-in targets

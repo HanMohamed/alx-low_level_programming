@@ -1,23 +1,12 @@
 # ninja log v5
 1	132	1688596824618957213	CMakeFiles/101-print_listint_safe.dir/101-print_listint_safe.c.o	1f7d1d962ae766e
 2	133	1688596824618957421	CMakeFiles/101-print_listint_safe.dir/101-main.c.o	31dd4b9fb9926573
-0	29	1688596827926498966	CMakeFiles/102-free_listint_safe.dir/102-main.c.o	e6a4580933330dca
+1	36	1688597776153556096	CMakeFiles/102-free_listint_safe.dir/102-main.c.o	e6a4580933330dca
 0	37	1688491498192616210	CMakeFiles/0x13_more_singly_linked_lists.dir/main.c.o	3b6982b001ed5418
-0	28	1688596827925393570	CMakeFiles/102-free_listint_safe.dir/102-free_listint_safe.c.o	82588e1ed7235e6c
+1	36	1688597776153593929	CMakeFiles/102-free_listint_safe.dir/102-free_listint_safe.c.o	82588e1ed7235e6c
 133	172	1688596824661352854	101-print_listint_safe	4444d74640da15bd
 1	37	1688492634603358983	CMakeFiles/101-print_listint_safe.dir/2-add_nodeint.c.o	1e7929007413bbad
 37	74	1688491498229659557	0x13_more_singly_linked_lists	5cc0975b80159cf1
 1	30	1688596863908408919	CMakeFiles/102-free_listint_safe.dir/2-add_nodeint.c.o	8210e58e65bbc961
 1	33	1688596918039054460	CMakeFiles/102-free_listint_safe.dir/101-print_listint_safe.c.o	d63166a863d7a074
-33	67	1688596918073169961	102-free_listint_safe	b33ac9e5d2d43fbe
-1	38	1688596993389273380	CMakeFiles/102-free_listint_safe.dir/102-free_listint_safe.c.o	82588e1ed7235e6c
-38	73	1688596993425010976	102-free_listint_safe	b33ac9e5d2d43fbe
-0	37	1688597017993857304	CMakeFiles/102-free_listint_safe.dir/102-free_listint_safe.c.o	82588e1ed7235e6c
-37	71	1688597018028215259	102-free_listint_safe	b33ac9e5d2d43fbe
-1	48	1688597040358141330	CMakeFiles/102-free_listint_safe.dir/102-free_listint_safe.c.o	82588e1ed7235e6c
-48	83	1688597040393242522	102-free_listint_safe	b33ac9e5d2d43fbe
-1	46	1688597610560156393	CMakeFiles/102-free_listint_safe.dir/102-free_listint_safe.c.o	82588e1ed7235e6c
-47	80	1688597610594102862	102-free_listint_safe	b33ac9e5d2d43fbe
-1	36	1688597776153556096	CMakeFiles/102-free_listint_safe.dir/102-main.c.o	e6a4580933330dca
-1	36	1688597776153593929	CMakeFiles/102-free_listint_safe.dir/102-free_listint_safe.c.o	82588e1ed7235e6c
 36	69	1688597776187123618	102-free_listint_safe	b33ac9e5d2d43fbe
