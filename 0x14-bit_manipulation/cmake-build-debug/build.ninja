@@ -117,6 +117,43 @@ build 1-print_binary: C_EXECUTABLE_LINKER__1-print_binary_Debug CMakeFiles/1-pri
   TARGET_FILE = 1-print_binary
   TARGET_PDB = 1-print_binary.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2-get_bit
+
+
+#############################################
+# Order-only phony target for 2-get_bit
+
+build cmake_object_order_depends_target_2-get_bit: phony || CMakeFiles/2-get_bit.dir
+
+build CMakeFiles/2-get_bit.dir/2-get_bit.c.o: C_COMPILER__2-get_bit_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/2-get_bit.c || cmake_object_order_depends_target_2-get_bit
+  DEP_FILE = CMakeFiles/2-get_bit.dir/2-get_bit.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-get_bit.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-get_bit.dir
+
+build CMakeFiles/2-get_bit.dir/2-main.c.o: C_COMPILER__2-get_bit_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/2-main.c || cmake_object_order_depends_target_2-get_bit
+  DEP_FILE = CMakeFiles/2-get_bit.dir/2-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/2-get_bit.dir
+  OBJECT_FILE_DIR = CMakeFiles/2-get_bit.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2-get_bit
+
+
+#############################################
+# Link the executable 2-get_bit
+
+build 2-get_bit: C_EXECUTABLE_LINKER__2-get_bit_Debug CMakeFiles/2-get_bit.dir/2-get_bit.c.o CMakeFiles/2-get_bit.dir/2-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/2-get_bit.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2-get_bit
+  TARGET_PDB = 2-get_bit.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -151,7 +188,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/cmake-build-debug
 
-build all: phony 0x14_bit_manipulation 1-print_binary
+build all: phony 0x14_bit_manipulation 1-print_binary 2-get_bit
 
 # =============================================================================
 # Built-in targets

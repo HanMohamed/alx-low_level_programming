@@ -12,35 +12,25 @@
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int unsigned_number = 0;
-	int i = 0;
-	int start = 0;
-	int power = 1;
-	int count;
+	int i;
+	int base;
 
-	if (b == NULL)
+	if (!b)
 		return (0);
 
-	/* To neglect 0 from left: start at the first 1 from left */
-	while (b[i++] == '0')
-		start++;
-
-	/* To count how many bits */
-	for (count = 0; b[count] != '\0'; count++)
+	for (i = 0; b[i]; i++)
 		;
-	count--;
+	i--;
 
-	while (count >= start)
+	base = 1;
+	while (i >= 0)
 	{
-		if (b[count] == '0' || b[count] == '1')
-		{
-			unsigned_number += power * (b[count] - '0');
-			power *= 2;
-			count--;
-		}
+		if (b[i] == '0' || b[i] == '1')
+			unsigned_number += (b[i] - '0') * base;
 		else
-		{
 			return (0);
-		}
+		base *= 2;
+		i--;
 	}
 	return (unsigned_number);
 }

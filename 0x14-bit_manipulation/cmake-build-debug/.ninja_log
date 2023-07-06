@@ -1,5 +1,20 @@
 # ninja log v5
-0	50	1688667016028114999	build.ninja	283f51f46cffe819
+0	50	1688667775616481876	build.ninja	283f51f46cffe819
 0	38	1688666817951613484	CMakeFiles/0x14_bit_manipulation.dir/0-binary_to_uint.c.o	a6736af08c2f6378
 1	38	1688666817951613568	CMakeFiles/0x14_bit_manipulation.dir/0-main.c.o	6f258fd64c0082d2
 38	71	1688666817984929054	0x14_bit_manipulation	d4d7a81fef15f1c7
+1	142	1688676293490226666	CMakeFiles/0x14_bit_manipulation.dir/0-binary_to_uint.c.o	a6736af08c2f6378
+144	182	1688676293531680710	0x14_bit_manipulation	d4d7a81fef15f1c7
+0	29	1688676375201096352	CMakeFiles/0x14_bit_manipulation.dir/0-binary_to_uint.c.o	a6736af08c2f6378
+29	63	1688676375235650138	0x14_bit_manipulation	d4d7a81fef15f1c7
+0	30	1688676395184995380	CMakeFiles/0x14_bit_manipulation.dir/0-main.c.o	6f258fd64c0082d2
+31	65	1688676395220642065	0x14_bit_manipulation	d4d7a81fef15f1c7
+1	32	1688676480271820774	CMakeFiles/0x14_bit_manipulation.dir/0-binary_to_uint.c.o	a6736af08c2f6378
+1	32	1688676480271817815	CMakeFiles/0x14_bit_manipulation.dir/0-main.c.o	6f258fd64c0082d2
+32	66	1688676480306121148	0x14_bit_manipulation	d4d7a81fef15f1c7
+0	30	1688676490321648969	CMakeFiles/0x14_bit_manipulation.dir/0-binary_to_uint.c.o	a6736af08c2f6378
+30	66	1688676490358796586	0x14_bit_manipulation	d4d7a81fef15f1c7
+0	30	1688676504930785319	CMakeFiles/0x14_bit_manipulation.dir/0-binary_to_uint.c.o	a6736af08c2f6378
+30	70	1688676504970767263	0x14_bit_manipulation	d4d7a81fef15f1c7
+1	33	1688676574546570088	CMakeFiles/0x14_bit_manipulation.dir/0-binary_to_uint.c.o	a6736af08c2f6378
+33	71	1688676574585698922	0x14_bit_manipulation	d4d7a81fef15f1c7
