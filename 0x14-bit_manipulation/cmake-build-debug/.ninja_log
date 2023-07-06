@@ -1,0 +1,5 @@
+# ninja log v5
+0	50	1688667016028114999	build.ninja	283f51f46cffe819
+0	38	1688666817951613484	CMakeFiles/0x14_bit_manipulation.dir/0-binary_to_uint.c.o	a6736af08c2f6378
+1	38	1688666817951613568	CMakeFiles/0x14_bit_manipulation.dir/0-main.c.o	6f258fd64c0082d2
+38	71	1688666817984929054	0x14_bit_manipulation	d4d7a81fef15f1c7
