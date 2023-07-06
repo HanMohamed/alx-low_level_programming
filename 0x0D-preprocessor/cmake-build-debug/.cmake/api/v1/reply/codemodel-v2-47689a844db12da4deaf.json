@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -68,6 +70,13 @@
 					"id" : "3-function_like_macro::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-3-function_like_macro-Debug-81d87a3f28ee9eb8177d.json",
 					"name" : "3-function_like_macro",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4-sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4-sum-Debug-8aacd021effd54ffb152.json",
+					"name" : "4-sum",
 					"projectIndex" : 0
 				}
 			]

@@ -161,6 +161,43 @@ build 3-function_like_macro: C_EXECUTABLE_LINKER__3-function_like_macro_Debug CM
   TARGET_FILE = 3-function_like_macro
   TARGET_PDB = 3-function_like_macro.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4-sum
+
+
+#############################################
+# Order-only phony target for 4-sum
+
+build cmake_object_order_depends_target_4-sum: phony || CMakeFiles/4-sum.dir
+
+build CMakeFiles/4-sum.dir/4-sum.c.o: C_COMPILER__4-sum_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/4-sum.c || cmake_object_order_depends_target_4-sum
+  DEP_FILE = CMakeFiles/4-sum.dir/4-sum.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-sum.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-sum.dir
+
+build CMakeFiles/4-sum.dir/4-main.c.o: C_COMPILER__4-sum_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/4-main.c || cmake_object_order_depends_target_4-sum
+  DEP_FILE = CMakeFiles/4-sum.dir/4-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/4-sum.dir
+  OBJECT_FILE_DIR = CMakeFiles/4-sum.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4-sum
+
+
+#############################################
+# Link the executable 4-sum
+
+build 4-sum: C_EXECUTABLE_LINKER__4-sum_Debug CMakeFiles/4-sum.dir/4-sum.c.o CMakeFiles/4-sum.dir/4-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/4-sum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 4-sum
+  TARGET_PDB = 4-sum.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -195,7 +232,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/cmake-build-debug
 
-build all: phony 0x0D_preprocessor 1-pi 2-main 3-function_like_macro
+build all: phony 0x0D_preprocessor 1-pi 2-main 3-function_like_macro 4-sum
 
 # =============================================================================
 # Built-in targets

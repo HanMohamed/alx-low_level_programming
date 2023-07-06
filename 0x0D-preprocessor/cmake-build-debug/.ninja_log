@@ -1,22 +1,6 @@
 # ninja log v5
-0	52	1688602330639313027	build.ninja	1f44e924985a72fe
-0	27	1688600962018663078	CMakeFiles/0x0D_preprocessor.dir/0-main.c.o	f73da730c5b8dd77
-27	59	1688600962051251418	0x0D_preprocessor	182dbfe659b9f804
+0	52	1688603388553076283	build.ninja	1f44e924985a72fe
 1	74	1688602336030869002	CMakeFiles/0x0D_preprocessor.dir/0-main.c.o	f73da730c5b8dd77
 75	121	1688602336078567252	0x0D_preprocessor	182dbfe659b9f804
-0	32	1688602349839951763	CMakeFiles/3-function_like_macro.dir/3-main.c.o	f9019dee50ec6bcf
-33	67	1688602349874979541	3-function_like_macro	28bb634c15c3f41e
-1	27	1688602456264934678	CMakeFiles/3-function_like_macro.dir/3-main.c.o	f9019dee50ec6bcf
-27	59	1688602456297061355	3-function_like_macro	28bb634c15c3f41e
-0	49	1688602501728850233	CMakeFiles/3-function_like_macro.dir/3-main.c.o	f9019dee50ec6bcf
-49	90	1688602501770512286	3-function_like_macro	28bb634c15c3f41e
-0	29	1688602543527401523	CMakeFiles/3-function_like_macro.dir/3-main.c.o	f9019dee50ec6bcf
-29	65	1688602543564688155	3-function_like_macro	28bb634c15c3f41e
-0	46	1688602789219732686	CMakeFiles/3-function_like_macro.dir/3-main.c.o	f9019dee50ec6bcf
-46	85	1688602789259494839	3-function_like_macro	28bb634c15c3f41e
-0	127	1688602892536905505	CMakeFiles/3-function_like_macro.dir/3-main.c.o	f9019dee50ec6bcf
-127	166	1688602892577084571	3-function_like_macro	28bb634c15c3f41e
-0	26	1688602910080166723	CMakeFiles/3-function_like_macro.dir/3-main.c.o	f9019dee50ec6bcf
-26	60	1688602910114051468	3-function_like_macro	28bb634c15c3f41e
-0	29	1688602976886588175	CMakeFiles/3-function_like_macro.dir/3-main.c.o	f9019dee50ec6bcf
 29	61	1688602976919113099	3-function_like_macro	28bb634c15c3f41e
+0	29	1688602976886588175	CMakeFiles/3-function_like_macro.dir/3-main.c.o	f9019dee50ec6bcf

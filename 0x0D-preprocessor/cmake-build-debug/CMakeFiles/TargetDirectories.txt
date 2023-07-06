@@ -2,5 +2,6 @@
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/cmake-build-debug/CMakeFiles/1-pi.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/cmake-build-debug/CMakeFiles/2-main.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/cmake-build-debug/CMakeFiles/3-function_like_macro.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/cmake-build-debug/CMakeFiles/4-sum.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
