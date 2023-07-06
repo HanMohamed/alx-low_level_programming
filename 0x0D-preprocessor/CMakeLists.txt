@@ -5,3 +5,4 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(0x0D_preprocessor 0-main.c 0-object_like_macro.h)
 add_executable(1-pi 1-pi.h 1-main.c)
+add_executable(2-main 2-main.c)
