@@ -130,6 +130,37 @@ build 2-main: C_EXECUTABLE_LINKER__2-main_Debug CMakeFiles/2-main.dir/2-main.c.o
   TARGET_FILE = 2-main
   TARGET_PDB = 2-main.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 3-function_like_macro
+
+
+#############################################
+# Order-only phony target for 3-function_like_macro
+
+build cmake_object_order_depends_target_3-function_like_macro: phony || CMakeFiles/3-function_like_macro.dir
+
+build CMakeFiles/3-function_like_macro.dir/3-main.c.o: C_COMPILER__3-function_like_macro_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/3-main.c || cmake_object_order_depends_target_3-function_like_macro
+  DEP_FILE = CMakeFiles/3-function_like_macro.dir/3-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/3-function_like_macro.dir
+  OBJECT_FILE_DIR = CMakeFiles/3-function_like_macro.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3-function_like_macro
+
+
+#############################################
+# Link the executable 3-function_like_macro
+
+build 3-function_like_macro: C_EXECUTABLE_LINKER__3-function_like_macro_Debug CMakeFiles/3-function_like_macro.dir/3-main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/3-function_like_macro.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 3-function_like_macro
+  TARGET_PDB = 3-function_like_macro.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -164,7 +195,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x0D-preprocessor/cmake-build-debug
 
-build all: phony 0x0D_preprocessor 1-pi 2-main
+build all: phony 0x0D_preprocessor 1-pi 2-main 3-function_like_macro
 
 # =============================================================================
 # Built-in targets
