@@ -11,6 +11,7 @@ void print_binary(unsigned long int n)
 
 	for (i = 63; i >= 0; i--)
 	{
+		/* current_n = n / (2^i) */
 		current_n = n >> i;
 
 		if (current_n & 1)
