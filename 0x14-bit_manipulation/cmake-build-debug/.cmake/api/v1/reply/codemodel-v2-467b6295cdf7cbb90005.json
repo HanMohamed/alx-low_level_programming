@@ -18,7 +18,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -36,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -68,6 +70,13 @@
 					"id" : "3-set_bit::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-3-set_bit-Debug-5b532b59088cd6260cff.json",
 					"name" : "3-set_bit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "4-clear_bit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-4-clear_bit-Debug-19a8817a2acaae29c70f.json",
+					"name" : "4-clear_bit",
 					"projectIndex" : 0
 				}
 			]

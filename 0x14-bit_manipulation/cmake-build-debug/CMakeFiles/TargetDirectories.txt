@@ -2,5 +2,6 @@
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/cmake-build-debug/CMakeFiles/1-print_binary.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/cmake-build-debug/CMakeFiles/2-get_bit.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/cmake-build-debug/CMakeFiles/3-set_bit.dir
+/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/cmake-build-debug/CMakeFiles/4-clear_bit.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
