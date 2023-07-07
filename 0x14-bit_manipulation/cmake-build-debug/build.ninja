@@ -228,6 +228,43 @@ build 4-clear_bit: C_EXECUTABLE_LINKER__4-clear_bit_Debug CMakeFiles/4-clear_bit
   TARGET_FILE = 4-clear_bit
   TARGET_PDB = 4-clear_bit.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 5-flip_bits
+
+
+#############################################
+# Order-only phony target for 5-flip_bits
+
+build cmake_object_order_depends_target_5-flip_bits: phony || CMakeFiles/5-flip_bits.dir
+
+build CMakeFiles/5-flip_bits.dir/5-main.c.o: C_COMPILER__5-flip_bits_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/5-main.c || cmake_object_order_depends_target_5-flip_bits
+  DEP_FILE = CMakeFiles/5-flip_bits.dir/5-main.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-flip_bits.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-flip_bits.dir
+
+build CMakeFiles/5-flip_bits.dir/5-flip_bits.c.o: C_COMPILER__5-flip_bits_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/5-flip_bits.c || cmake_object_order_depends_target_5-flip_bits
+  DEP_FILE = CMakeFiles/5-flip_bits.dir/5-flip_bits.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
+  OBJECT_DIR = CMakeFiles/5-flip_bits.dir
+  OBJECT_FILE_DIR = CMakeFiles/5-flip_bits.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5-flip_bits
+
+
+#############################################
+# Link the executable 5-flip_bits
+
+build 5-flip_bits: C_EXECUTABLE_LINKER__5-flip_bits_Debug CMakeFiles/5-flip_bits.dir/5-main.c.o CMakeFiles/5-flip_bits.dir/5-flip_bits.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/5-flip_bits.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 5-flip_bits
+  TARGET_PDB = 5-flip_bits.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -262,7 +299,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x14-bit_manipulation/cmake-build-debug
 
-build all: phony 0x14_bit_manipulation 1-print_binary 2-get_bit 3-set_bit 4-clear_bit
+build all: phony 0x14_bit_manipulation 1-print_binary 2-get_bit 3-set_bit 4-clear_bit 5-flip_bits
 
 # =============================================================================
 # Built-in targets
