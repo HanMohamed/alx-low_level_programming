@@ -13,7 +13,7 @@ int get_bit(unsigned long int n, unsigned int index)
 	int mask = 1;
 	int result;
 
-	if (index > 64)
+	if (index > 63)
 		return (-1);
 
 	mask = mask << index;
