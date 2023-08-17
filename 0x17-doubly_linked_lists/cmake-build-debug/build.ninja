@@ -36,7 +36,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/cmake-build-debug/
+cmake_ninja_workdir = /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target 0-print_dlistint
 
@@ -46,12 +46,14 @@ cmake_ninja_workdir = /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUnivers
 
 build cmake_object_order_depends_target_0-print_dlistint: phony || CMakeFiles/0-print_dlistint.dir
 
-build CMakeFiles/0-print_dlistint.dir/0-print_dlistint.c.o: C_COMPILER__0-print_dlistint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/0-print_dlistint.c || cmake_object_order_depends_target_0-print_dlistint
+build CMakeFiles/0-print_dlistint.dir/0-print_dlistint.c.o: C_COMPILER__0-print_dlistint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/0-print_dlistint.c || cmake_object_order_depends_target_0-print_dlistint
   DEP_FILE = CMakeFiles/0-print_dlistint.dir/0-print_dlistint.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/0-print_dlistint.dir
   OBJECT_FILE_DIR = CMakeFiles/0-print_dlistint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/0-print_dlistint.dir/
+  TARGET_PDB = 0-print_dlistint.pdb
 
 
 # =============================================================================
@@ -66,8 +68,9 @@ build 0-print_dlistint: C_EXECUTABLE_LINKER__0-print_dlistint_Debug CMakeFiles/0
   OBJECT_DIR = CMakeFiles/0-print_dlistint.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/0-print_dlistint.dir/
   TARGET_FILE = 0-print_dlistint
-  TARGET_PDB = 0-print_dlistint.dbg
+  TARGET_PDB = 0-print_dlistint.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1-dlistint_len
@@ -78,19 +81,23 @@ build 0-print_dlistint: C_EXECUTABLE_LINKER__0-print_dlistint_Debug CMakeFiles/0
 
 build cmake_object_order_depends_target_1-dlistint_len: phony || CMakeFiles/1-dlistint_len.dir
 
-build CMakeFiles/1-dlistint_len.dir/1-dlistint_len.c.o: C_COMPILER__1-dlistint_len_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/1-dlistint_len.c || cmake_object_order_depends_target_1-dlistint_len
+build CMakeFiles/1-dlistint_len.dir/1-dlistint_len.c.o: C_COMPILER__1-dlistint_len_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/1-dlistint_len.c || cmake_object_order_depends_target_1-dlistint_len
   DEP_FILE = CMakeFiles/1-dlistint_len.dir/1-dlistint_len.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/1-dlistint_len.dir
   OBJECT_FILE_DIR = CMakeFiles/1-dlistint_len.dir
+  TARGET_COMPILE_PDB = CMakeFiles/1-dlistint_len.dir/
+  TARGET_PDB = 1-dlistint_len.pdb
 
-build CMakeFiles/1-dlistint_len.dir/1-main.c.o: C_COMPILER__1-dlistint_len_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/1-main.c || cmake_object_order_depends_target_1-dlistint_len
+build CMakeFiles/1-dlistint_len.dir/1-main.c.o: C_COMPILER__1-dlistint_len_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/1-main.c || cmake_object_order_depends_target_1-dlistint_len
   DEP_FILE = CMakeFiles/1-dlistint_len.dir/1-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/1-dlistint_len.dir
   OBJECT_FILE_DIR = CMakeFiles/1-dlistint_len.dir
+  TARGET_COMPILE_PDB = CMakeFiles/1-dlistint_len.dir/
+  TARGET_PDB = 1-dlistint_len.pdb
 
 
 # =============================================================================
@@ -105,8 +112,9 @@ build 1-dlistint_len: C_EXECUTABLE_LINKER__1-dlistint_len_Debug CMakeFiles/1-dli
   OBJECT_DIR = CMakeFiles/1-dlistint_len.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/1-dlistint_len.dir/
   TARGET_FILE = 1-dlistint_len
-  TARGET_PDB = 1-dlistint_len.dbg
+  TARGET_PDB = 1-dlistint_len.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 2-add_dnodeint
@@ -117,19 +125,23 @@ build 1-dlistint_len: C_EXECUTABLE_LINKER__1-dlistint_len_Debug CMakeFiles/1-dli
 
 build cmake_object_order_depends_target_2-add_dnodeint: phony || CMakeFiles/2-add_dnodeint.dir
 
-build CMakeFiles/2-add_dnodeint.dir/2-main.c.o: C_COMPILER__2-add_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/2-main.c || cmake_object_order_depends_target_2-add_dnodeint
+build CMakeFiles/2-add_dnodeint.dir/2-main.c.o: C_COMPILER__2-add_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/2-main.c || cmake_object_order_depends_target_2-add_dnodeint
   DEP_FILE = CMakeFiles/2-add_dnodeint.dir/2-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/2-add_dnodeint.dir
   OBJECT_FILE_DIR = CMakeFiles/2-add_dnodeint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/2-add_dnodeint.dir/
+  TARGET_PDB = 2-add_dnodeint.pdb
 
-build CMakeFiles/2-add_dnodeint.dir/2-add_dnodeint.c.o: C_COMPILER__2-add_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/2-add_dnodeint.c || cmake_object_order_depends_target_2-add_dnodeint
+build CMakeFiles/2-add_dnodeint.dir/2-add_dnodeint.c.o: C_COMPILER__2-add_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/2-add_dnodeint.c || cmake_object_order_depends_target_2-add_dnodeint
   DEP_FILE = CMakeFiles/2-add_dnodeint.dir/2-add_dnodeint.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/2-add_dnodeint.dir
   OBJECT_FILE_DIR = CMakeFiles/2-add_dnodeint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/2-add_dnodeint.dir/
+  TARGET_PDB = 2-add_dnodeint.pdb
 
 
 # =============================================================================
@@ -144,8 +156,9 @@ build 2-add_dnodeint: C_EXECUTABLE_LINKER__2-add_dnodeint_Debug CMakeFiles/2-add
   OBJECT_DIR = CMakeFiles/2-add_dnodeint.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/2-add_dnodeint.dir/
   TARGET_FILE = 2-add_dnodeint
-  TARGET_PDB = 2-add_dnodeint.dbg
+  TARGET_PDB = 2-add_dnodeint.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 3-add_dnodeint_end
@@ -156,19 +169,23 @@ build 2-add_dnodeint: C_EXECUTABLE_LINKER__2-add_dnodeint_Debug CMakeFiles/2-add
 
 build cmake_object_order_depends_target_3-add_dnodeint_end: phony || CMakeFiles/3-add_dnodeint_end.dir
 
-build CMakeFiles/3-add_dnodeint_end.dir/3-main.c.o: C_COMPILER__3-add_dnodeint_end_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/3-main.c || cmake_object_order_depends_target_3-add_dnodeint_end
+build CMakeFiles/3-add_dnodeint_end.dir/3-main.c.o: C_COMPILER__3-add_dnodeint_end_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/3-main.c || cmake_object_order_depends_target_3-add_dnodeint_end
   DEP_FILE = CMakeFiles/3-add_dnodeint_end.dir/3-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/3-add_dnodeint_end.dir
   OBJECT_FILE_DIR = CMakeFiles/3-add_dnodeint_end.dir
+  TARGET_COMPILE_PDB = CMakeFiles/3-add_dnodeint_end.dir/
+  TARGET_PDB = 3-add_dnodeint_end.pdb
 
-build CMakeFiles/3-add_dnodeint_end.dir/3-add_dnodeint_end.c.o: C_COMPILER__3-add_dnodeint_end_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/3-add_dnodeint_end.c || cmake_object_order_depends_target_3-add_dnodeint_end
+build CMakeFiles/3-add_dnodeint_end.dir/3-add_dnodeint_end.c.o: C_COMPILER__3-add_dnodeint_end_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/3-add_dnodeint_end.c || cmake_object_order_depends_target_3-add_dnodeint_end
   DEP_FILE = CMakeFiles/3-add_dnodeint_end.dir/3-add_dnodeint_end.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/3-add_dnodeint_end.dir
   OBJECT_FILE_DIR = CMakeFiles/3-add_dnodeint_end.dir
+  TARGET_COMPILE_PDB = CMakeFiles/3-add_dnodeint_end.dir/
+  TARGET_PDB = 3-add_dnodeint_end.pdb
 
 
 # =============================================================================
@@ -183,8 +200,9 @@ build 3-add_dnodeint_end: C_EXECUTABLE_LINKER__3-add_dnodeint_end_Debug CMakeFil
   OBJECT_DIR = CMakeFiles/3-add_dnodeint_end.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/3-add_dnodeint_end.dir/
   TARGET_FILE = 3-add_dnodeint_end
-  TARGET_PDB = 3-add_dnodeint_end.dbg
+  TARGET_PDB = 3-add_dnodeint_end.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 4-free_dlistint
@@ -195,19 +213,23 @@ build 3-add_dnodeint_end: C_EXECUTABLE_LINKER__3-add_dnodeint_end_Debug CMakeFil
 
 build cmake_object_order_depends_target_4-free_dlistint: phony || CMakeFiles/4-free_dlistint.dir
 
-build CMakeFiles/4-free_dlistint.dir/4-main.c.o: C_COMPILER__4-free_dlistint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/4-main.c || cmake_object_order_depends_target_4-free_dlistint
+build CMakeFiles/4-free_dlistint.dir/4-main.c.o: C_COMPILER__4-free_dlistint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/4-main.c || cmake_object_order_depends_target_4-free_dlistint
   DEP_FILE = CMakeFiles/4-free_dlistint.dir/4-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/4-free_dlistint.dir
   OBJECT_FILE_DIR = CMakeFiles/4-free_dlistint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/4-free_dlistint.dir/
+  TARGET_PDB = 4-free_dlistint.pdb
 
-build CMakeFiles/4-free_dlistint.dir/4-free_dlistint.c.o: C_COMPILER__4-free_dlistint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/4-free_dlistint.c || cmake_object_order_depends_target_4-free_dlistint
+build CMakeFiles/4-free_dlistint.dir/4-free_dlistint.c.o: C_COMPILER__4-free_dlistint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/4-free_dlistint.c || cmake_object_order_depends_target_4-free_dlistint
   DEP_FILE = CMakeFiles/4-free_dlistint.dir/4-free_dlistint.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/4-free_dlistint.dir
   OBJECT_FILE_DIR = CMakeFiles/4-free_dlistint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/4-free_dlistint.dir/
+  TARGET_PDB = 4-free_dlistint.pdb
 
 
 # =============================================================================
@@ -222,8 +244,9 @@ build 4-free_dlistint: C_EXECUTABLE_LINKER__4-free_dlistint_Debug CMakeFiles/4-f
   OBJECT_DIR = CMakeFiles/4-free_dlistint.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/4-free_dlistint.dir/
   TARGET_FILE = 4-free_dlistint
-  TARGET_PDB = 4-free_dlistint.dbg
+  TARGET_PDB = 4-free_dlistint.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 5-get_dnodeint
@@ -234,19 +257,23 @@ build 4-free_dlistint: C_EXECUTABLE_LINKER__4-free_dlistint_Debug CMakeFiles/4-f
 
 build cmake_object_order_depends_target_5-get_dnodeint: phony || CMakeFiles/5-get_dnodeint.dir
 
-build CMakeFiles/5-get_dnodeint.dir/5-main.c.o: C_COMPILER__5-get_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/5-main.c || cmake_object_order_depends_target_5-get_dnodeint
+build CMakeFiles/5-get_dnodeint.dir/5-main.c.o: C_COMPILER__5-get_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/5-main.c || cmake_object_order_depends_target_5-get_dnodeint
   DEP_FILE = CMakeFiles/5-get_dnodeint.dir/5-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/5-get_dnodeint.dir
   OBJECT_FILE_DIR = CMakeFiles/5-get_dnodeint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/5-get_dnodeint.dir/
+  TARGET_PDB = 5-get_dnodeint.pdb
 
-build CMakeFiles/5-get_dnodeint.dir/5-get_dnodeint.c.o: C_COMPILER__5-get_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/5-get_dnodeint.c || cmake_object_order_depends_target_5-get_dnodeint
+build CMakeFiles/5-get_dnodeint.dir/5-get_dnodeint.c.o: C_COMPILER__5-get_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/5-get_dnodeint.c || cmake_object_order_depends_target_5-get_dnodeint
   DEP_FILE = CMakeFiles/5-get_dnodeint.dir/5-get_dnodeint.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/5-get_dnodeint.dir
   OBJECT_FILE_DIR = CMakeFiles/5-get_dnodeint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/5-get_dnodeint.dir/
+  TARGET_PDB = 5-get_dnodeint.pdb
 
 
 # =============================================================================
@@ -261,8 +288,9 @@ build 5-get_dnodeint: C_EXECUTABLE_LINKER__5-get_dnodeint_Debug CMakeFiles/5-get
   OBJECT_DIR = CMakeFiles/5-get_dnodeint.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/5-get_dnodeint.dir/
   TARGET_FILE = 5-get_dnodeint
-  TARGET_PDB = 5-get_dnodeint.dbg
+  TARGET_PDB = 5-get_dnodeint.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 6-sum_dlistint
@@ -273,19 +301,23 @@ build 5-get_dnodeint: C_EXECUTABLE_LINKER__5-get_dnodeint_Debug CMakeFiles/5-get
 
 build cmake_object_order_depends_target_6-sum_dlistint: phony || CMakeFiles/6-sum_dlistint.dir
 
-build CMakeFiles/6-sum_dlistint.dir/6-main.c.o: C_COMPILER__6-sum_dlistint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/6-main.c || cmake_object_order_depends_target_6-sum_dlistint
+build CMakeFiles/6-sum_dlistint.dir/6-main.c.o: C_COMPILER__6-sum_dlistint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/6-main.c || cmake_object_order_depends_target_6-sum_dlistint
   DEP_FILE = CMakeFiles/6-sum_dlistint.dir/6-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/6-sum_dlistint.dir
   OBJECT_FILE_DIR = CMakeFiles/6-sum_dlistint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/6-sum_dlistint.dir/
+  TARGET_PDB = 6-sum_dlistint.pdb
 
-build CMakeFiles/6-sum_dlistint.dir/6-sum_dlistint.c.o: C_COMPILER__6-sum_dlistint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/6-sum_dlistint.c || cmake_object_order_depends_target_6-sum_dlistint
+build CMakeFiles/6-sum_dlistint.dir/6-sum_dlistint.c.o: C_COMPILER__6-sum_dlistint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/6-sum_dlistint.c || cmake_object_order_depends_target_6-sum_dlistint
   DEP_FILE = CMakeFiles/6-sum_dlistint.dir/6-sum_dlistint.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/6-sum_dlistint.dir
   OBJECT_FILE_DIR = CMakeFiles/6-sum_dlistint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/6-sum_dlistint.dir/
+  TARGET_PDB = 6-sum_dlistint.pdb
 
 
 # =============================================================================
@@ -300,8 +332,9 @@ build 6-sum_dlistint: C_EXECUTABLE_LINKER__6-sum_dlistint_Debug CMakeFiles/6-sum
   OBJECT_DIR = CMakeFiles/6-sum_dlistint.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/6-sum_dlistint.dir/
   TARGET_FILE = 6-sum_dlistint
-  TARGET_PDB = 6-sum_dlistint.dbg
+  TARGET_PDB = 6-sum_dlistint.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 7-insert_dnodeint
@@ -312,19 +345,23 @@ build 6-sum_dlistint: C_EXECUTABLE_LINKER__6-sum_dlistint_Debug CMakeFiles/6-sum
 
 build cmake_object_order_depends_target_7-insert_dnodeint: phony || CMakeFiles/7-insert_dnodeint.dir
 
-build CMakeFiles/7-insert_dnodeint.dir/7-main.c.o: C_COMPILER__7-insert_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/7-main.c || cmake_object_order_depends_target_7-insert_dnodeint
+build CMakeFiles/7-insert_dnodeint.dir/7-main.c.o: C_COMPILER__7-insert_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/7-main.c || cmake_object_order_depends_target_7-insert_dnodeint
   DEP_FILE = CMakeFiles/7-insert_dnodeint.dir/7-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/7-insert_dnodeint.dir
   OBJECT_FILE_DIR = CMakeFiles/7-insert_dnodeint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/7-insert_dnodeint.dir/
+  TARGET_PDB = 7-insert_dnodeint.pdb
 
-build CMakeFiles/7-insert_dnodeint.dir/7-insert_dnodeint.c.o: C_COMPILER__7-insert_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c || cmake_object_order_depends_target_7-insert_dnodeint
+build CMakeFiles/7-insert_dnodeint.dir/7-insert_dnodeint.c.o: C_COMPILER__7-insert_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/7-insert_dnodeint.c || cmake_object_order_depends_target_7-insert_dnodeint
   DEP_FILE = CMakeFiles/7-insert_dnodeint.dir/7-insert_dnodeint.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/7-insert_dnodeint.dir
   OBJECT_FILE_DIR = CMakeFiles/7-insert_dnodeint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/7-insert_dnodeint.dir/
+  TARGET_PDB = 7-insert_dnodeint.pdb
 
 
 # =============================================================================
@@ -339,8 +376,9 @@ build 7-insert_dnodeint: C_EXECUTABLE_LINKER__7-insert_dnodeint_Debug CMakeFiles
   OBJECT_DIR = CMakeFiles/7-insert_dnodeint.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/7-insert_dnodeint.dir/
   TARGET_FILE = 7-insert_dnodeint
-  TARGET_PDB = 7-insert_dnodeint.dbg
+  TARGET_PDB = 7-insert_dnodeint.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 8-delete_dnodeint
@@ -351,19 +389,23 @@ build 7-insert_dnodeint: C_EXECUTABLE_LINKER__7-insert_dnodeint_Debug CMakeFiles
 
 build cmake_object_order_depends_target_8-delete_dnodeint: phony || CMakeFiles/8-delete_dnodeint.dir
 
-build CMakeFiles/8-delete_dnodeint.dir/8-main.c.o: C_COMPILER__8-delete_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/8-main.c || cmake_object_order_depends_target_8-delete_dnodeint
+build CMakeFiles/8-delete_dnodeint.dir/8-main.c.o: C_COMPILER__8-delete_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/8-main.c || cmake_object_order_depends_target_8-delete_dnodeint
   DEP_FILE = CMakeFiles/8-delete_dnodeint.dir/8-main.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/8-delete_dnodeint.dir
   OBJECT_FILE_DIR = CMakeFiles/8-delete_dnodeint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/8-delete_dnodeint.dir/
+  TARGET_PDB = 8-delete_dnodeint.pdb
 
-build CMakeFiles/8-delete_dnodeint.dir/8-delete_dnodeint.c.o: C_COMPILER__8-delete_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c || cmake_object_order_depends_target_8-delete_dnodeint
+build CMakeFiles/8-delete_dnodeint.dir/8-delete_dnodeint.c.o: C_COMPILER__8-delete_dnodeint_Debug /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/8-delete_dnodeint.c || cmake_object_order_depends_target_8-delete_dnodeint
   DEP_FILE = CMakeFiles/8-delete_dnodeint.dir/8-delete_dnodeint.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics
-  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/.
+  INCLUDES = -I/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/.
   OBJECT_DIR = CMakeFiles/8-delete_dnodeint.dir
   OBJECT_FILE_DIR = CMakeFiles/8-delete_dnodeint.dir
+  TARGET_COMPILE_PDB = CMakeFiles/8-delete_dnodeint.dir/
+  TARGET_PDB = 8-delete_dnodeint.pdb
 
 
 # =============================================================================
@@ -378,15 +420,16 @@ build 8-delete_dnodeint: C_EXECUTABLE_LINKER__8-delete_dnodeint_Debug CMakeFiles
   OBJECT_DIR = CMakeFiles/8-delete_dnodeint.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/8-delete_dnodeint.dir/
   TARGET_FILE = 8-delete_dnodeint
-  TARGET_PDB = 8-delete_dnodeint.dbg
+  TARGET_PDB = 8-delete_dnodeint.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -397,7 +440,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists -B/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/cmake-build-debug
+  COMMAND = cd /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists -B/Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -413,7 +456,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/cmake-build-debug
+# Folder: /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/cmake-build-debug
 
 build all: phony 0-print_dlistint 1-dlistint_len 2-add_dnodeint 3-add_dnodeint_end 4-free_dlistint 5-get_dnodeint 6-sum_dlistint 7-insert_dnodeint 8-delete_dnodeint
 
@@ -424,14 +467,14 @@ build all: phony 0-print_dlistint 1-dlistint_len 2-add_dnodeint 3-add_dnodeint_e
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-higher_level_programming/0x17-doubly_linked_lists/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCCompilerABI.c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompiler.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCompilerIdDetection.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompileFeatures.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerABI.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineCompilerId.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeDetermineSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeFindBinUtils.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitIncludeInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseImplicitLinkInfo.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeParseLibraryArchitecture.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystem.cmake.in /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCXXCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeTestCompilerCommon.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ADSP-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Borland-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Cray-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GHS-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IAR-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Intel-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/MSVC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PGI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/PathScale-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SCO-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TI-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Watcom-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Internal/FeatureTesting.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Determine-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake /Users/hanosh/Library/CloudStorage/OneDrive-SeattleUniversity/Personal/ALX/alx-low_level_programming/0x17-doubly_linked_lists/CMakeLists.txt CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
 
 
 #############################################
