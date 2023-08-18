@@ -22,6 +22,28 @@ dlistint_t *create_node(int n)
 }
 
 /**
+ * dlistint_len - List length
+ * @h: doubly linked list
+ *
+ * Return: the number of elements in a linked dlistint_t list.
+ */
+
+size_t dlistint_len(const dlistint_t *h)
+{
+	int size = 0;
+
+	if (!h)
+		return (size);
+
+	while (h)
+	{
+		size++;
+		h = h->next;
+	}
+	return (size);
+}
+
+/**
  * insert_dnodeint_at_index - inserts a new node at a given position.
  * @h: doubly linked list
  * @idx: The index of the list where the new node should be added starts at 0
