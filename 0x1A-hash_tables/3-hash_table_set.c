@@ -18,6 +18,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	hash_node_t *temp;
 	unsigned long int index;
 
+	if (!ht)
+		ht = hash_table_create(1024);
+
 	index = key_index((const unsigned char *)key, ht->size);
 	temp = ht->array[index];
 	while (temp)
