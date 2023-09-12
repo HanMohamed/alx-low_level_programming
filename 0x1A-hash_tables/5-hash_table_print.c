@@ -29,13 +29,17 @@ void hash_table_print(const hash_table_t *ht)
 		current = ht->array[i];
 		while (current)
 		{
+			/* print == 1 */
 			if (print)
 				printf(", ");
 			printf("'%s': '%s'", current->key, current->value);
 			print = 1;
 			current = current->next;
 			if (current)
+			{
 				printf(", ");
+				print = 0;
+			}
 		}
 		if (i == ht->size - 1)
 			printf("}\n");
