@@ -187,4 +187,7 @@ void shash_table_print_rev(const shash_table_t *ht)
 }
 
 void shash_table_delete(shash_table_t *ht)
-{}
+{
+	if (!ht)
+		return;
+}
