@@ -36,7 +36,6 @@ shash_table_t *shash_table_create(unsigned long int size)
 	return (shash_table);
 }
 
-
 /**
  * shash_table_set - a function that adds an element to the shash table.
  * @ht: is the hash table you want to add or update the key/value to
@@ -81,6 +80,22 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	shash_node->key = strdup(key);
 	shash_node->value = strdup(value);
 	shash_node->next = NULL;
+
+	if (ht->shead == NULL)
+	{
+		ht->shead = ht->stail = shash_node;
+		shash_node->snext = NULL;
+		shash_node->sprev = NULL;
+	}
+	else
+	{
+		temp = ht->shead;
+		while (temp->snext)
+			temp = temp->snext;
+		temp->snext = shash_node;
+		shash_node->sprev = temp;
+		ht->stail = shash_node;
+	}
 	if (!ht->array[index])
 	{
 		ht->array[index] = shash_node;
