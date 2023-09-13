@@ -37,24 +37,19 @@ shash_table_t *shash_table_create(unsigned long int size)
 }
 
 /**
- * shash_table_set - a function that adds an element to the shash table.
+ * check_set - a helper function
  * @ht: is the hash table you want to add or update the key/value to
  * @key: is the key. key can not be an empty string
  * @value: is the value associated with the key. value must be duplicated.
  *  value can be an empty string
  *
- * In case of collision, add the new node at the beginning of the list
- *
  * Return: 1 if it succeeded, 0 otherwise
  */
-int shash_table_set(shash_table_t *ht, const char *key, const char *value)
+int check_set(shash_table_t *ht, const char *key, const char *value)
 {
-	shash_node_t *shash_node;
 	shash_node_t *temp;
 	unsigned long int index;
 
-	if (!ht || !key)
-		return (0);
 	index = key_index((const unsigned char *)key, ht->size);
 	temp = ht->array[index];
 	while (temp)
@@ -73,13 +68,17 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 		}
 		temp = temp->next;
 	}
+	return (0);
+}
 
-	shash_node = malloc(sizeof(shash_node_t));
-	if (!shash_node)
-		return (0);
-	shash_node->key = strdup(key);
-	shash_node->value = strdup(value);
-	shash_node->next = NULL;
+/**
+ * set_node - set node in the sorted list
+ * @ht: is the hash table
+ * @shash_node: the new node to be set in its place
+ */
+void set_node(shash_table_t *ht, shash_node_t *shash_node)
+{
+	shash_node_t *temp;
 
 	if (ht->shead == NULL)
 	{
@@ -96,6 +95,43 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 		shash_node->sprev = temp;
 		ht->stail = shash_node;
 	}
+}
+
+/**
+ * shash_table_set - a function that adds an element to the shash table.
+ * @ht: is the hash table you want to add or update the key/value to
+ * @key: is the key. key can not be an empty string
+ * @value: is the value associated with the key. value must be duplicated.
+ *  value can be an empty string
+ *
+ * In case of collision, add the new node at the beginning of the list
+ *
+ * Return: 1 if it succeeded, 0 otherwise
+ */
+int shash_table_set(shash_table_t *ht, const char *key, const char *value)
+{
+	shash_node_t *shash_node;
+	shash_node_t *temp;
+	unsigned long int index;
+	int set;
+
+	if (!ht || !key)
+		return (0);
+	index = key_index((const unsigned char *)key, ht->size);
+
+	set = check_set(ht, key, value);
+	if (set == 1)
+		return (1);
+
+	shash_node = malloc(sizeof(shash_node_t));
+	if (!shash_node)
+		return (0);
+	shash_node->key = strdup(key);
+	shash_node->value = strdup(value);
+	shash_node->next = NULL;
+
+	set_node(ht, shash_node);
+
 	if (!ht->array[index])
 	{
 		ht->array[index] = shash_node;
@@ -221,6 +257,23 @@ void shash_table_print_rev(const shash_table_t *ht)
  */
 void shash_table_delete(shash_table_t *ht)
 {
-	if (!ht)
+	shash_node_t *current;
+	unsigned long int i;
+
+	if (!ht || !ht->array || ht->size == 0)
 		return;
+
+	for (i = 0; i < ht->size; i++)
+	{
+		while (ht->array[i] != NULL)
+		{
+			current = ht->array[i];
+			ht->array[i] = ht->array[i]->next;
+			free(current->key);
+			free(current->value);
+			free(current);
+		}
+	}
+	free(ht->array);
+	free(ht);
 }
