@@ -33,7 +33,8 @@ shash_table_t *shash_table_create(unsigned long int size)
 	shash_table->shead = NULL;
 	shash_table->stail = NULL;
 
-	return (shash_table);}
+	return (shash_table);
+}
 
 
 /**
@@ -199,7 +200,7 @@ void shash_table_print_rev(const shash_table_t *ht)
 }
 
 /**
- * hash_table_delete - a function that deletes a hash table.
+ * shash_table_delete - a function that deletes a hash table.
  * @ht:  is the hash table
  *
  */
