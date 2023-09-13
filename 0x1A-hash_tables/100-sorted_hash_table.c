@@ -35,6 +35,18 @@ shash_table_t *shash_table_create(unsigned long int size)
 
 	return (shash_table);}
 
+
+/**
+ * shash_table_set - a function that adds an element to the shash table.
+ * @ht: is the hash table you want to add or update the key/value to
+ * @key: is the key. key can not be an empty string
+ * @value: is the value associated with the key. value must be duplicated.
+ *  value can be an empty string
+ *
+ * In case of collision, add the new node at the beginning of the list
+ *
+ * Return: 1 if it succeeded, 0 otherwise
+ */
 int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 {
 	shash_node_t *shash_node;
@@ -186,6 +198,11 @@ void shash_table_print_rev(const shash_table_t *ht)
 	printf("}\n");
 }
 
+/**
+ * hash_table_delete - a function that deletes a hash table.
+ * @ht:  is the hash table
+ *
+ */
 void shash_table_delete(shash_table_t *ht)
 {
 	if (!ht)
