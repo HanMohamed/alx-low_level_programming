@@ -13,6 +13,7 @@
 int linear_search(int *array, size_t size, int value)
 {
     size_t i;
+    char snum[10];
 
     if (!array)
         return (-1);
@@ -20,9 +21,10 @@ int linear_search(int *array, size_t size, int value)
     for (i = 0; i < size; i++)
     {
         puts("Value checked array[");
-        puts("%lu", i);
+        itoa(i, snum, 10);
+        puts(snum);
         puts("] = [");
-        puts("%d", array[i]);
+        puts(array[i]);
         puts("]\n");
         
         if (array[i] == value)
