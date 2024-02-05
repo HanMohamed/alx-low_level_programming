@@ -13,14 +13,14 @@
 */
 int binary_search(int *array, size_t size, int value)
 {
-  size_t start, end;
+    size_t start, end;
 
-  if (!array)
-    return (-1);
+    if (!array)
+        return (-1);
 
-  start = 0;
-  end = size - 1;
-  return (b_search(array, start, end, value));
+    start = 0;
+    end = size - 1;
+    return (b_search(array, start, end, value));
 }
 
 /**
