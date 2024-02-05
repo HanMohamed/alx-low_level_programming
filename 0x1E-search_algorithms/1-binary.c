@@ -41,7 +41,7 @@ int b_search(int *array, size_t start, size_t end, int value)
     i = start;
     if (start <= end)
     {
-        printf("Searching in array: ");
+        printf("Searching in array:");
         for (i = start; i <= end; i++)
         {
           printf(" %d", array[i]);
