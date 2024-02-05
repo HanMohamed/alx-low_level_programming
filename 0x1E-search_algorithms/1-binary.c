@@ -50,11 +50,11 @@ int b_search(int *array, size_t start, size_t end, int value)
         }
         printf("\n");
 
-        mid = (start + end) / 2;
+        mid = start + ((end - start) / 2);
         if (array[mid] == value)
           return (mid);
        else if (array[mid] > value)
-         return (b_search(array, start, mid - 1, value));
+         return (b_search(array, start, mid, value));
         else
          return (b_search(array, mid + 1, end, value));
     }
