@@ -14,24 +14,20 @@
 int linear_search(int *array, size_t size, int value)
 {
 	size_t i;
-	char snum[10];
 
 	if (!array)
 		return (-1);
 
 	for (i = 0; i < size; i++)
 	{
-		puts("Value checked array[");
-		itoa(i, snum, 10);
-		puts(snum);
-		puts("] = [");
-		puts(array[i]);
-		puts("]\n");
+		printf("Value checked array[");
+		printf("%lu", i);
+		printf("] = [");
+		printf("%d", array[i]);
+		printf("]\n");
 
 		if (array[i] == value)
-		{
 			return (i);
-		}
 	}
 	return (-1);
 }
