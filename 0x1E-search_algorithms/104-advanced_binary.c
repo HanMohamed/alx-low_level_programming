@@ -52,7 +52,12 @@ int advanced_binary_internal(int *array, size_t start, size_t end, int value)
 
 		mid = (start + end) / 2;
 		if (array[mid] == value)
-			return (mid);
+		{
+			if (array[mid - 1] == value)
+				return (mid - 1);
+			else
+				return (mid);
+		}
 		else if (array[mid] > value)
 			return (advanced_binary_internal(array, start, mid - 1, value));
 		else
