@@ -18,9 +18,9 @@ int binary_search(int *array, size_t size, int value)
 	if (!array || size <= 0)
 		return (-1);
 
-		start = 0;
-		end = size - 1;
-		return (b_search(array, start, end, value));
+	start = 0;
+	end = size - 1;
+	return (b_search(array, start, end, value));
 }
 
 /**
